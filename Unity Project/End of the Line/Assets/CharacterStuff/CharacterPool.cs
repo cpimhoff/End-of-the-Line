@@ -7,12 +7,11 @@ public class CharacterPool : MonoBehaviour {
 	public List<string> jsonFileLocationStrings;
 
 	private List<CharacterStruct> characters;
-
-	public Dictionary<CharacterStruct, int> deathMap; // for cutie
+	private List<CharacterStruct> rankedPool;
 
 	// Use this for initialization
 	void Start () {
-		this.deathMap = new Dictionary<CharacterStruct, int> ();
+		this.name = "the pool!";
 		this.characters = new List<CharacterStruct> ();
 
 		foreach (string location in jsonFileLocationStrings) {
@@ -23,8 +22,33 @@ public class CharacterPool : MonoBehaviour {
 			foreach (string line in lines) {
 				CharacterStruct character = CharacterStruct.createFromJSONString(line);
 				this.characters.Add (character);
+
+				// we'll keep track of ranks in this list. populate it here!
+				this.rankedPool.Add (character);
 			}
 		}
+	}
+
+	
+	public void onFavorFirstOverSecond(Pair<CharacterStruct, CharacterStruct> choicePair) {
+		CharacterStruct first = choicePair.First;
+		CharacterStruct second = choicePair.Second;
+
+		int indexFirst = this.rankedPool.IndexOf (first);
+		int indexSecond = this.rankedPool.IndexOf (second);
+
+		if (indexFirst > indexSecond) {
+			// If First is later in the list than Second, 
+
+			// remove it (temporarily)
+			this.rankedPool.RemoveAt(indexFirst);
+
+			// and then reinsert it closer to the front!
+			this.rankedPool.Insert(indexSecond, first);
+		}
+
+		// Remove Y from viable candidates, since Y is dead now
+		this.characters.Remove(second);
 	}
 	
 	// Update is called once per frame
@@ -36,11 +60,7 @@ public class CharacterPool : MonoBehaviour {
 		return characters;
 	}
 
-	public void addDeathForCharacter(CharacterStruct character) {
-		if (this.deathMap.ContainsKey (character)) {
-			this.deathMap [character]++;
-		} else {
-			this.deathMap.Add (character, 1);
-		}
+	public List<CharacterStruct> getRankedPool() {
+		return this.rankedPool;
 	}
 }

@@ -1,13 +1,13 @@
-﻿<Properties StartupItem="Assembly-CSharp.csproj">
+<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Primary Gameplay/Script/DieWhenHitByTrain.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Data/Ranker.cs">
     <Files>
-      <File FileName="Assets/Primary Gameplay/Script/InitFromCharacterStruct.cs" Line="29" Column="2" />
-      <File FileName="Assets/Primary Gameplay/Script/Billboard.cs" Line="9" Column="103" />
-      <File FileName="Assets/Primary Gameplay/Script/DieWhenHitByTrain.cs" Line="28" Column="36" />
-      <File FileName="Assets/Primary Gameplay/Script/ObserveChoices.cs" Line="20" Column="13" />
-      <File FileName="Assets/CharacterStuff/CharacterStruct.cs" Line="8" Column="21" />
-      <File FileName="Assets/CharacterStuff/Pair.cs" Line="19" Column="2" />
+      <File FileName="Assets/CharacterStuff/CharacterPool.cs" Line="1" Column="1" />
+      <File FileName="Assets/CharacterStuff/CharacterStruct.cs" Line="1" Column="1" />
+      <File FileName="Assets/CharacterStuff/MatchMaker.cs" Line="1" Column="1" />
+      <File FileName="Assets/Character_JSON/chars.json" Line="1" Column="1" />
+      <File FileName="Assets/Primary Gameplay/Script/InitFromCharacterStruct.cs" Line="27" Column="12" />
+      <File FileName="Assets/Data/Ranker.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
