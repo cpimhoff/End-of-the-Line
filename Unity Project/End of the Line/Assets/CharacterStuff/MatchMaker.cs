@@ -21,12 +21,16 @@ public class MatchMaker : MonoBehaviour {
 
 		// Grab two randos!
 		int firstIndex = Random.Range(0, pool.Count);
-		// second index comes from a list that is 1 smaller (since the first item will be removed)
-		int secondIndex = Random.Range (0, pool.Count-1);
-
 		CharacterStruct person1 = pool [firstIndex];
+
+		// remove this person so we don't get dupe choices
 		pool.Remove (person1);
-		CharacterStruct person2 = pool[secondIndex];
+
+		CharacterStruct person2 = null;
+		if (pool.Count > 0) {
+			int secondIndex = Random.Range (0, pool.Count);
+			person2 = pool [secondIndex];
+		} // if there's no one left in the list, then it will stay null
 
 		// okay now add that person back in... this feels icky but hey it's a hackathon!!!!111!11
 		pool.Add(person1);
