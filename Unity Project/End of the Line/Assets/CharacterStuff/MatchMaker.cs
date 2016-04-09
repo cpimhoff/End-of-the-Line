@@ -18,20 +18,28 @@ public class MatchMaker : MonoBehaviour {
 
 	// any of the CharacterStruts can be null (to put nobody on that track)
 	public Pair<CharacterStruct, CharacterStruct> getPair() {
-		characterPool.getCharacterPool ();
+		var pool = characterPool.getCharacterPool ();
 
-		// return a nice and random pair! Or a totally deterministic one amiright
-		CharacterStruct friend = new CharacterStruct();
-		friend.name = "Charlie Imhoff";
-		friend.sprite = "fakePic.lol";
-		friend.type = "stalkernet";
+		// Grab two randos!
+		Random rand = new Random ();
+		int firstIndex = rand.Next(pool.Count);
+		int secondIndex = rand.Next (pool.Count);
 
-		CharacterStruct enemy = new CharacterStruct();
-		enemy.name = "Prof. Quirrel";
-		enemy.sprite = "troll in the dungeon.lol";
-		enemy.type = "stalkernet";
+		CharacterStruct person1 = pool [firstIndex];
+		CharacterStruct person2 = pool[secondIndex];
 
-		return new Pair<CharacterStruct, CharacterStruct>(friend, enemy);
+		// For the first few pairs, let one part of the track be empty
+		//	(so the decision isn't too hard, ya know?)
+		if (numberOfPairsGiven < 5) {
+			// 50% chance of left or right side being empty.
+			if (rand.NextDouble () > 0.5) {
+				return new Pair<CharacterStruct, CharacterStruct> (null, person2);
+			} else {
+				return new Pair<CharacterStruct, CharacterStruct> (person1, null);
+			}
+		} else {
+			return new Pair<CharacterStruct, CharacterStruct> (person1, person2);
+		}
 	}
 
 }
