@@ -21,6 +21,7 @@ public class PatchManager : MonoBehaviour {
 		if (currentPatch == null) {
 			this.currentPatch = generator.NextPatch ();
 			this.currentPatch.SetActive (true);
+			return;
 		}
 
 		if (patchRealBounds().Contains (trackedObject.transform.position)) {
