@@ -19,8 +19,10 @@ public class DieWhenHitByTrain : MonoBehaviour {
  	private void OnHitByTrain () {
 		Destroy (this.gameObject);
 
+		// to-done! blood
+		GetComponent<BloodSplatter>().Splat ();
+
 		// TODO: send death info to CharacterPool
-		// TODO: spawn blood, ghosts, etc.
 		// TODO: repent
 	}
 }
