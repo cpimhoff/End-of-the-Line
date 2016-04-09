@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - ReplaceWithCharacter
+  - Train
+  - Character
   layers:
   - Default
   - TransparentFX

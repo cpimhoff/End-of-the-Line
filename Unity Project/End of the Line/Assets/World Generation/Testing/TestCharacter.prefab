@@ -12,7 +12,7 @@ GameObject:
   - 136: {fileID: 13688144}
   - 23: {fileID: 2368648}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: TestCharacter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
