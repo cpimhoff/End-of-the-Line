@@ -13,6 +13,7 @@ GameObject:
   - 135: {fileID: 13571068}
   - 114: {fileID: 11407570}
   - 114: {fileID: 11426438}
+  - 114: {fileID: 11445480}
   m_Layer: 0
   m_Name: Character
   m_TagString: Character
@@ -55,6 +56,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bloodEffect: {fileID: 105954, guid: 677f40265c2aa4ec8b94d974a3b7b689, type: 2}
+--- !u!114 &11445480
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 164532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f28fc8df2e864ab58caf72548536280, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11472442
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -67,7 +79,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trainTag: Train
-  characterPool: {fileID: 0}
 --- !u!135 &13571068
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -90,7 +101,7 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 2100000, guid: 06155dc9ef7664ac98dea8b7ab47f1a2, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
