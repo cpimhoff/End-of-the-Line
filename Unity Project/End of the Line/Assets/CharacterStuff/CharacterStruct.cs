@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic; //maybe?
-using System.Web.Scripts
+using SimpleJSON;
 
 public class CharacterStruct {
 	
@@ -10,11 +10,19 @@ public class CharacterStruct {
 	public string sprite; //takes in the person's png
 	private Dictionary<string, string> data;
 
-	void parseJSON(string jsonString) { //parses a JSON file and turns it into a type character struct
-		var json = new JavaScriptSerializer();
-		data = json.Deserialize<Dictionary<string, string>> (jsonString);
-		data.TryGetValue ("name", out name); // tries to access the dictionary looking for the key name, then puts it in the variable name
-		data.TryGetValue("type", out type); // tries to access the dictionary looking for the key name, then puts it in the variable name
-		data.TryGetValue("sprite", out sprite); // tries to access the dictionary looking for the key name, then puts it in the variable name
+	public static CharacterStruct createFromJSON(string jsonString) { //parses a JSON file and turns it into a type character struct
+		var jsonParsed = JSON.Parse(jsonString);
+
+		var theName = jsonParsed ["name"];
+		var theType = jsonParsed ["type"];
+		var theSprite = jsonParsed ["sprite"];
+
+		var charStr = new CharacterStruct ();
+		charStr.name = theName;
+		charStr.type = theType;
+		charStr.sprite = theSprite;
+
+		return charStr;
 	}
+		
 }
