@@ -22,9 +22,8 @@ public class InitFromCharacterStruct : MonoBehaviour {
 		this.characterInfo = newInfo;
 
 		SpriteRenderer renderer = GetComponent<SpriteRenderer> ();
-//		renderer.sprite = characterInfo.sprite;
 
-		renderer.sprite = Resources.Load("charles", typeof(Sprite)) as Sprite;
+		renderer.sprite = Resources.Load(characterInfo.sprite, typeof(Sprite)) as Sprite;
 		Vector3 scale = new Vector3( 1, 1, 1f );
 		renderer.transform.localScale = scale;
 	}
