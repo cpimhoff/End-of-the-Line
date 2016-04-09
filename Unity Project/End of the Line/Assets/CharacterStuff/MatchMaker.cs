@@ -4,7 +4,7 @@ using System.Collections.Generic;
 public class MatchMaker : MonoBehaviour {
 
 	public CharacterPool characterPool;
-	private int numberOfPairsGiven = 16;
+	private int numberOfPairsGiven = 0;
 
 	// Use this for initialization
 	void Start () {

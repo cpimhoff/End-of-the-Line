@@ -22,8 +22,6 @@ public class CharacterStruct {
 		charStr.type = theType;
 		charStr.sprite = theSprite;
 
-		Debug.Log (charStr.sprite);
-
 		return charStr;
 	}
 
