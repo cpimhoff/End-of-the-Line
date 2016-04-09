@@ -742,8 +742,7 @@ GameObject:
   - 4: {fileID: 402988}
   - 65: {fileID: 6541816}
   - 114: {fileID: 11424888}
-  - 114: {fileID: 11448106}
-  - 114: {fileID: 11474436}
+  - 114: {fileID: 11464534}
   m_Layer: 0
   m_Name: Patch-Decision
   m_TagString: Untagged
@@ -7836,18 +7835,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trainPlacementPoint: {fileID: 469358}
---- !u!114 &11448106
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 128614}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd96edbc800e146deb2add472695375a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  trainPlacementPoint: {fileID: 0}
 --- !u!114 &11451164
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7885,7 +7872,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   curveToward: {fileID: 11423818}
---- !u!114 &11474436
+--- !u!114 &11464534
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -7893,10 +7880,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 128614}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd96edbc800e146deb2add472695375a, type: 3}
+  m_Script: {fileID: 11500000, guid: 0aec85a9cfb0743988187099022ba8dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trainPlacementPoint: {fileID: 0}
 --- !u!135 &13524130
 SphereCollider:
   m_ObjectHideFlags: 1

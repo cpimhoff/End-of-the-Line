@@ -7,6 +7,9 @@ using System.Collections;
 /// </summary>
 public class TrainMovement : MonoBehaviour {
 
+	public enum LeverPosition {Left, Right};
+	public LeverPosition leverPosition = LeverPosition.Left;
+
 	public float speed = 1.5f;
 	public float maxVelocityMagnitude = 10;
 	public float rotationSpeed = 1.5f;
@@ -20,6 +23,7 @@ public class TrainMovement : MonoBehaviour {
 	// FixedUpdate is called once per physics frame
 	void FixedUpdate () {
 		var vectorToDestination = target - this.transform.position;
+		vectorToDestination.y = 0;
 		vectorToDestination.Normalize ();
 
 		this.transform.position = Vector3.MoveTowards (this.transform.position, target, (speed * Time.deltaTime));
@@ -31,6 +35,18 @@ public class TrainMovement : MonoBehaviour {
 				Time.deltaTime * rotationSpeed
 			);
 		}
+	}
+
+	public void ToggleLeverPosition () {
+		if (leverPosition == LeverPosition.Left) {
+			leverPosition = LeverPosition.Right;
+		} else if (leverPosition == LeverPosition.Right) {
+			leverPosition = LeverPosition.Left;
+		}
+	}
+
+	public LeverPosition GetLeverPosition () {
+		return leverPosition;
 	}
 
 }

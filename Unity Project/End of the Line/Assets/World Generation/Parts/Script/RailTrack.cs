@@ -8,7 +8,9 @@ public class RailTrack : MonoBehaviour {
 	void OnTriggerEnter(Collider other) {
 		var trainMover = other.GetComponent<TrainMovement> ();
 		if (trainMover != null && this.enabled) {
-			trainMover.target = curveToward.destination.position;
+			var destination = curveToward.destination.position;
+			destination.y = trainMover.transform.position.y;
+			trainMover.target = destination;
 		}
 	}
 

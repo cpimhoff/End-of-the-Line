@@ -10,8 +10,6 @@ public class PatchManager : MonoBehaviour {
 	public GameObject trackedObject;	// the object which will trigger patch generation by moving close to off grid.
 
 	private GameObject currentPatch;	// the current patch
-	private Bounds patchRegion // the bounding box of the current patch
-	{	get { return  currentPatch.GetComponent<BoxCollider>().bounds; } }
 
 	// Use this for initialization
 	void Start () {
@@ -22,7 +20,7 @@ public class PatchManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (patchRegion.Contains (trackedObject.transform.position)) {
+		if (patchRealBounds().Contains (trackedObject.transform.position)) {
 			// the tracked object is within the patch's region	
 		} else {
 			// generate the template (populated)
@@ -42,4 +40,7 @@ public class PatchManager : MonoBehaviour {
 		}
 	}
 
+	private RealBounds patchRealBounds () { // the bounding box of the current patch
+		return this.currentPatch.GetComponent<RealBounds>();
+	}
 }
