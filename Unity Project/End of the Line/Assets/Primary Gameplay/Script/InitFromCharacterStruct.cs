@@ -21,8 +21,8 @@ public class InitFromCharacterStruct : MonoBehaviour {
 	public void SetCharacterInfo (CharacterStruct newInfo) {
 		this.characterInfo = newInfo;
 
-		// SpriteRenderer renderer = GetComponent<SpriteRenderer> ();
-		// TODO: renderer.sprite = characterInfo.sprite
+//		SpriteRenderer renderer = GetComponent<SpriteRenderer> ();
+//		renderer.sprite = characterInfo.sprite;
 	}
 
 	public CharacterStruct GetCharacterInfo () {
