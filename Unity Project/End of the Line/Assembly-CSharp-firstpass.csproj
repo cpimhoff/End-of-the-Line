@@ -6,10 +6,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{DAECB5C2-7E1D-4ADB-950F-0060BAD768E7}</ProjectGuid>
+    <ProjectGuid>{6566A196-F657-0826-5101-BE55CEC8C61D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>Assets</BaseDirectory>
@@ -45,9 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CharacterStuff\CharacterStruct.cs" />
-     <Compile Include="Assets\CharacterStuff\SimpleJSON.cs" />
-     <Compile Include="Assets\CharacterStuff\Testing\TestCharacterStruct.cs" />
+     <Compile Include="Assets\plugins\SimpleJSON.cs" />
      <None Include="Assets\JSON Tests\TroubleShoot.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -58,10 +56,6 @@
  <Reference Include="ICSharpCode.SharpZipLib">
  <HintPath>C:/Users/Joseph/Documents/End-of-the-Line/Unity Project/End of the Line/Assets/plugins/ICSharpCode.SharpZipLib.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{6566A196-F657-0826-5101-BE55CEC8C61D}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

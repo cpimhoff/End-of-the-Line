@@ -6,10 +6,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{DAECB5C2-7E1D-4ADB-950F-0060BAD768E7}</ProjectGuid>
+    <ProjectGuid>{86F6A3B3-5F8C-F300-A0E4-817EE840D99C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyName>Assembly-UnityScript</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>Assets</BaseDirectory>
@@ -45,9 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CharacterStuff\CharacterStruct.cs" />
-     <Compile Include="Assets\CharacterStuff\SimpleJSON.cs" />
-     <Compile Include="Assets\CharacterStuff\Testing\TestCharacterStruct.cs" />
+     <Compile Include="Assets\JSON Tests\UnityScript\Test_UnityScript.js" />
      <None Include="Assets\JSON Tests\TroubleShoot.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
