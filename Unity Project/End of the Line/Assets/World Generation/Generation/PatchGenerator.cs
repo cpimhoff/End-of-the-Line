@@ -7,6 +7,8 @@ public class PatchGenerator : MonoBehaviour {
 	public List<GameObject> templatePatches = new List<GameObject>();
 	public GameObject characterTemplate;
 
+	public List<GameObject> props;
+
 	// Returns a new patch for the world (these start as inactive!)
 	public GameObject NextPatch() {
 		// get a random patch type
@@ -37,6 +39,19 @@ public class PatchGenerator : MonoBehaviour {
 
 			// want i to go up by two, so increment it once here, and once more at the top of the loop :/
 			i++;
+		}
+
+		// Grab Props
+		GameObject[] replaceTheseProps = GameObject.FindGameObjectsWithTag("ReplaceWithProp");
+		foreach (GameObject replaceMe in replaceTheseProps) {
+			int randomIndex = Random.Range (0, props.Count);
+			GameObject funProp = GameObject.Instantiate (props[randomIndex]);
+			funProp.transform.SetParent (patch.transform);
+			funProp.transform.position = replaceMe.transform.position;
+
+			replaceMe.tag = "Untagged";
+			replaceMe.SetActive (false);
+			Destroy (replaceMe);
 		}
 
 		// return template (now properly constructed)
