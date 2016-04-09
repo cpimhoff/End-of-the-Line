@@ -23,7 +23,7 @@ public class MatchMaker : MonoBehaviour {
 		int firstIndex = Random.Range(0, pool.Count);
 		CharacterStruct person1 = pool [firstIndex];
 
-		// remove this person so we don't get dupe choices
+//		// remove this person so we don't get dupe choices
 		pool.Remove (person1);
 
 		CharacterStruct person2 = null;
@@ -32,7 +32,7 @@ public class MatchMaker : MonoBehaviour {
 			person2 = pool [secondIndex];
 		} // if there's no one left in the list, then it will stay null
 
-		// okay now add that person back in... this feels icky but hey it's a hackathon!!!!111!11
+//		// okay now add that person back in... this feels icky but hey it's a hackathon!!!!111!11
 		pool.Add(person1);
 
 		// For the first few pairs, let one part of the track be empty

@@ -13,6 +13,7 @@ public class CharacterPool : MonoBehaviour {
 	void Start () {
 		this.name = "the pool!";
 		this.characters = new List<CharacterStruct> ();
+		this.rankedPool = new List<CharacterStruct> ();
 
 		foreach (string location in jsonFileLocationStrings) {
 			string[] lines = File.ReadAllLines(location);

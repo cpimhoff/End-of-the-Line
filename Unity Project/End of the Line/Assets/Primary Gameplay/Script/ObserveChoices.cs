@@ -11,7 +11,6 @@ public class ObserveChoices : MonoBehaviour {
 	}
 
 	public void OnCharacterSurvived(CharacterStruct character) {
-		Debug.Log ("Survive Obervation Recieved");
 		runningObservation.First = character;
 		if (IsObservationReady ()) {
 			SendFavoringToCharacterPool ();
@@ -19,7 +18,6 @@ public class ObserveChoices : MonoBehaviour {
 	}
 
 	public void OnCharacterKilled(CharacterStruct character) {
-		Debug.Log ("Kill Obervation Recieved");
 		runningObservation.Second = character;
 		if (IsObservationReady ()) {
 			SendFavoringToCharacterPool ();
@@ -27,10 +25,9 @@ public class ObserveChoices : MonoBehaviour {
 	}
 
 	private void SendFavoringToCharacterPool () {
-		Debug.Log ("Full Obervation Recieved, sending...");
 		var favoring = runningObservation.Copy ();
 
-		// characterPool.onFavorFirstOverSecond (favoring);
+		characterPool.onFavorFirstOverSecond (favoring);
 
 		runningObservation = new Pair<CharacterStruct, CharacterStruct> ();
 	}
