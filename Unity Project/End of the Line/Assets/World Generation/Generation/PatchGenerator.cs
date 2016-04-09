@@ -22,19 +22,26 @@ public class PatchGenerator : MonoBehaviour {
 		//  and set replace with characters
 		for (int i = 0; i < replaceThese.Length-1; 	i++) {
 			var pair = matchMaker.getPair ();
-			GameObject character1 = GameObject.Instantiate (characterTemplate);
-			character1.GetComponent<InitFromCharacterStruct> ().SetCharacterInfo (pair.First);
-			character1.transform.SetParent (patch.transform);
-			character1.transform.position = replaceThese [i].transform.position;
-			character1.transform.rotation = replaceThese [i].transform.rotation;
-			Debug.Log (pair.First);
 
-			GameObject character2 = GameObject.Instantiate (characterTemplate);
-			character2.GetComponent<InitFromCharacterStruct> ().SetCharacterInfo (pair.Second);
-			character2.transform.SetParent (patch.transform);
-			character2.transform.position = replaceThese [i+1].transform.position;
-			character2.transform.rotation = replaceThese [i+1].transform.rotation;
-			Debug.Log (pair.Second);
+			if (pair.First == null) {
+				// do nothing.
+			} else {
+				GameObject character1 = GameObject.Instantiate (characterTemplate);
+				character1.GetComponent<InitFromCharacterStruct> ().SetCharacterInfo (pair.First);
+				character1.transform.SetParent (patch.transform);
+				character1.transform.position = replaceThese [i].transform.position;
+				character1.transform.rotation = replaceThese [i].transform.rotation;
+			}
+
+			if (pair.Second == null) {
+				// do nothing. especially don't do anything bad.
+			} else {
+				GameObject character2 = GameObject.Instantiate (characterTemplate);
+				character2.GetComponent<InitFromCharacterStruct> ().SetCharacterInfo (pair.Second);
+				character2.transform.SetParent (patch.transform);
+				character2.transform.position = replaceThese [i+1].transform.position;
+				character2.transform.rotation = replaceThese [i+1].transform.rotation;
+			}
 
 			replaceThese [i].tag = "Untagged";
 			replaceThese [i].SetActive (false);
