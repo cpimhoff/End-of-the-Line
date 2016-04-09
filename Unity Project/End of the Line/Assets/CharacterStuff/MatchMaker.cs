@@ -15,7 +15,7 @@ public class MatchMaker : MonoBehaviour {
 
 	}
 
-	// any of the CharacterStruts can be null (to put nobody on that track)
+	// @Nullable: any of the CharacterStruts can be null (to put nobody on that track)
 	public Pair<CharacterStruct, CharacterStruct> getPair() {
 		List<CharacterStruct> pool = characterPool.getCharacterPool ();
 
