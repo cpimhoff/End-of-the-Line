@@ -22,6 +22,8 @@ public class DieWhenHitByTrain : MonoBehaviour {
 		// to-done! blood
 		GetComponent<BloodSplatter>().Splat ();
 
+
+
 		// TODO: send death info to CharacterPool
 		// TODO: repent
 	}
