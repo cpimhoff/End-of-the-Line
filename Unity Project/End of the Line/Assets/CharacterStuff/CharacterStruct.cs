@@ -23,6 +23,5 @@ public class CharacterStruct {
 		charStr.sprite = theSprite;
 
 		return charStr;
-	}
-		
+	}		
 }
