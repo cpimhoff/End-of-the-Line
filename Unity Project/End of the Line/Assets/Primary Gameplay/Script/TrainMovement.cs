@@ -3,31 +3,34 @@ using System.Collections;
 
 /// <summary>
 /// Moves a Train realistically up to a max speed.
+/// On Contacts with RailCurves and RailForks, turns the train to face the right way.
 /// </summary>
 public class TrainMovement : MonoBehaviour {
 
 	public float speed = 1.5f;
 	public float maxVelocityMagnitude = 10;
+	public float rotationSpeed = 1.5f;
 
-	private Rigidbody body;
+	public Vector3 target;
 
 	// Use this for initialization
 	void Start () {
-		this.body = this.GetComponent<Rigidbody> ();
 	}
 
 	// FixedUpdate is called once per physics frame
 	void FixedUpdate () {
-		Vector3 force = new Vector3 (0, 0, speed);
-		body.AddRelativeForce (force, ForceMode.Acceleration);
+		var vectorToDestination = target - this.transform.position;
+		vectorToDestination.Normalize ();
 
-		if (body.velocity.sqrMagnitude >= (maxVelocityMagnitude*maxVelocityMagnitude)) {
-			Vector3 normalled = body.velocity.normalized;
-			Vector3 newVelocity = new Vector3 (body.velocity.x, body.velocity.y, body.velocity.z);
-			newVelocity.x = normalled.x * maxVelocityMagnitude;
-			newVelocity.y = normalled.y * maxVelocityMagnitude;
-			newVelocity.z = normalled.z * maxVelocityMagnitude;
-			body.velocity = newVelocity;
+		this.transform.position = Vector3.MoveTowards (this.transform.position, target, (speed * Time.deltaTime));
+
+		if (vectorToDestination != Vector3.zero) {
+			transform.rotation = Quaternion.Slerp(
+				transform.rotation,
+				Quaternion.LookRotation(vectorToDestination),
+				Time.deltaTime * rotationSpeed
+			);
 		}
 	}
+
 }
