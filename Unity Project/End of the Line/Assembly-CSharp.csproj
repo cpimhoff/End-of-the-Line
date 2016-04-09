@@ -50,8 +50,8 @@
      <Compile Include="Assets\CharacterStuff\MatchMaker.cs" />
      <Compile Include="Assets\CharacterStuff\Pair.cs" />
      <Compile Include="Assets\CharacterStuff\SimpleJSON.cs" />
-     <Compile Include="Assets\Primary Gameplay\Script\Billboard.cs" />
      <Compile Include="Assets\Primary Gameplay\Interface\LeverMover.cs" />
+     <Compile Include="Assets\Primary Gameplay\Script\Billboard.cs" />
      <Compile Include="Assets\Primary Gameplay\Script\DieWhenHitByTrain.cs" />
      <Compile Include="Assets\Primary Gameplay\Script\InitFromCharacterStruct.cs" />
      <Compile Include="Assets\Primary Gameplay\Script\PatchManager.cs" />
