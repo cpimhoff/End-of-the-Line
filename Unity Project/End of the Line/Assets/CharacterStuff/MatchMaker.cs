@@ -22,10 +22,7 @@ public class MatchMaker : MonoBehaviour {
 		// Grab two randos!
 		int firstIndex = Random.Range(0, pool.Count);
 		int secondIndex = Random.Range (0, pool.Count);
-	
-		Debug.Log (pool.Count);
-		Debug.Log (firstIndex);
-		Debug.Log (secondIndex);
+
 		CharacterStruct person1 = pool [firstIndex];
 		CharacterStruct person2 = pool[secondIndex];
 

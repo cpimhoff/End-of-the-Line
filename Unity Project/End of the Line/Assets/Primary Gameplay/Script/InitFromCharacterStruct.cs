@@ -21,8 +21,12 @@ public class InitFromCharacterStruct : MonoBehaviour {
 	public void SetCharacterInfo (CharacterStruct newInfo) {
 		this.characterInfo = newInfo;
 
-//		SpriteRenderer renderer = GetComponent<SpriteRenderer> ();
+		SpriteRenderer renderer = GetComponent<SpriteRenderer> ();
 //		renderer.sprite = characterInfo.sprite;
+
+		renderer.sprite = Resources.Load("charles", typeof(Sprite)) as Sprite;
+		Vector3 scale = new Vector3( 1, 1, 1f );
+		renderer.transform.localScale = scale;
 	}
 
 	public CharacterStruct GetCharacterInfo () {
