@@ -18,7 +18,7 @@ public class PatchGenerator : MonoBehaviour {
 
 		// Grab pairs (object_i, object_{i+1}), (object_{i+2}, object_{i+3}), etc
 		//  and set replace with characters
-		for (int i = 0; i < replaceThese.Length-1; 	i++) {
+		for (int i = 0; i < replaceThese.Length-2; 	i++) {
 			var pair = matchMaker.getPair ();
 			GameObject character1 = GameObject.Instantiate (characterTemplate);
 			character1.GetComponent<InitFromCharacterStruct> ().SetCharacterInfo (pair.First);

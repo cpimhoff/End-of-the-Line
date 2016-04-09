@@ -13,13 +13,16 @@ public class PatchManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		this.currentPatch = generator.NextPatch ();
-
-		this.currentPatch.SetActive (true);
+		
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		if (currentPatch == null) {
+			this.currentPatch = generator.NextPatch ();
+			this.currentPatch.SetActive (true);
+		}
+
 		if (patchRealBounds().Contains (trackedObject.transform.position)) {
 			// the tracked object is within the patch's region	
 		} else {

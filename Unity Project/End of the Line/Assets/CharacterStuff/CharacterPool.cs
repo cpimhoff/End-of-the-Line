@@ -16,11 +16,11 @@ public class CharacterPool : MonoBehaviour {
 		this.characters = new List<CharacterStruct> ();
 
 		foreach (string location in jsonFileLocationStrings) {
-			var lines = File.ReadAllLines(location);
+			string[] lines = File.ReadAllLines(location);
 
 			// These JSON files are poorly formatted. Each line is a separate JSON object.
 			// it's a hackathon though so we're cutting corners, you know?!
-			foreach (var line in lines) {
+			foreach (string line in lines) {
 				CharacterStruct character = CharacterStruct.createFromJSONString(line);
 				this.characters.Add (character);
 			}

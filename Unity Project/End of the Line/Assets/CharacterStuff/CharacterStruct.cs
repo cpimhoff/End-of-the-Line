@@ -11,7 +11,7 @@ public class CharacterStruct {
 	private Dictionary<string, string> data;
 
 	public static CharacterStruct createFromJSONString(string jsonString) { //parses a JSON file and turns it into a type character struct
-		var jsonParsed = JSON.Parse(jsonString);
+		JSONNode jsonParsed = JSON.Parse(jsonString);
 
 		var theName = jsonParsed ["name"];
 		var theType = jsonParsed ["type"];
@@ -21,6 +21,8 @@ public class CharacterStruct {
 		charStr.name = theName;
 		charStr.type = theType;
 		charStr.sprite = theSprite;
+
+		Debug.Log (charStr.sprite);
 
 		return charStr;
 	}
