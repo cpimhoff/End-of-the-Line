@@ -13,8 +13,6 @@ public class CharacterPool : MonoBehaviour {
 		characters = new List<CharacterStruct> ();
 
 		foreach (string location in jsonFileLocationStrings) {
-			var jsonContents = File.ReadAllText (location);
-
 			var lines = File.ReadAllLines(location);
 
 			// These JSON files are poorly formatted. Each line is a separate JSON object.
