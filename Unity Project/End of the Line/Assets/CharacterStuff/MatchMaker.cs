@@ -28,7 +28,7 @@ public class MatchMaker : MonoBehaviour {
 
 		// For the first few pairs, let one part of the track be empty
 		//	(so the decision isn't too hard, ya know?)
-		if (numberOfPairsGiven < 6) {
+		if (numberOfPairsGiven < 1) {
 			// 50% chance of left or right side being empty on the first few.
 			if (Random.Range((float)0, (float)1) > 0.5) {
 				this.numberOfPairsGiven++;

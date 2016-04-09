@@ -294,6 +294,7 @@ Transform:
   m_Children:
   - {fileID: 176260816}
   - {fileID: 1986614785}
+  - {fileID: 1791231458}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!1001 &1331457951
@@ -338,6 +339,46 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1e7d84b00a8e5408b95b881c067b78db, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1791231457
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1791231458}
+  - 114: {fileID: 1791231459}
+  m_Layer: 0
+  m_Name: The Observer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791231458
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1791231457}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 791120813}
+  m_RootOrder: 2
+--- !u!114 &1791231459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1791231457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0895d8965e0e842439ae8955f8a890af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterPool: {fileID: 176260815}
 --- !u!1 &1986614784
 GameObject:
   m_ObjectHideFlags: 0

@@ -54,6 +54,7 @@
      <Compile Include="Assets\Primary Gameplay\Script\Billboard.cs" />
      <Compile Include="Assets\Primary Gameplay\Script\DieWhenHitByTrain.cs" />
      <Compile Include="Assets\Primary Gameplay\Script\InitFromCharacterStruct.cs" />
+     <Compile Include="Assets\Primary Gameplay\Script\ObserveChoices.cs" />
      <Compile Include="Assets\Primary Gameplay\Script\PatchManager.cs" />
      <Compile Include="Assets\Primary Gameplay\Script\TrainMovement.cs" />
      <Compile Include="Assets\Primary Gameplay\Sugar\BloodSplatter.cs" />
@@ -148,6 +149,10 @@
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{6566A196-F657-0826-5101-BE55CEC8C61D}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -12,4 +12,9 @@ public class Pair<T, U> {
 
 	public T First { get; set; }
 	public U Second { get; set; }
+
+	public Pair<T,U> Copy () {
+		return new Pair<T, U> (this.First, this.Second);
+	}
+
 };

@@ -1,6 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Primary Gameplay/Script/DieWhenHitByTrain.cs">
+    <Files>
+      <File FileName="Assets/Primary Gameplay/Script/InitFromCharacterStruct.cs" Line="29" Column="2" />
+      <File FileName="Assets/Primary Gameplay/Script/Billboard.cs" Line="9" Column="103" />
+      <File FileName="Assets/Primary Gameplay/Script/DieWhenHitByTrain.cs" Line="28" Column="36" />
+      <File FileName="Assets/Primary Gameplay/Script/ObserveChoices.cs" Line="20" Column="13" />
+      <File FileName="Assets/CharacterStuff/CharacterStruct.cs" Line="8" Column="21" />
+      <File FileName="Assets/CharacterStuff/Pair.cs" Line="19" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
