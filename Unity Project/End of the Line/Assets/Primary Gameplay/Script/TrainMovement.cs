@@ -22,6 +22,8 @@ public class TrainMovement : MonoBehaviour {
 
 	// FixedUpdate is called once per physics frame
 	void FixedUpdate () {
+		var currentY = this.transform.position.y;
+
 		var vectorToDestination = target - this.transform.position;
 		vectorToDestination.y = 0;
 		vectorToDestination.Normalize ();
@@ -35,6 +37,8 @@ public class TrainMovement : MonoBehaviour {
 				Time.deltaTime * rotationSpeed
 			);
 		}
+
+		this.transform.position = new Vector3 (transform.position.x, currentY, transform.position.z);
 	}
 
 	public void ToggleLeverPosition () {
