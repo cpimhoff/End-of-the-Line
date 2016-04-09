@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using System.Collections;
+using System.Collections.Generic;
 
 public class MatchMaker : MonoBehaviour {
 
@@ -8,36 +8,37 @@ public class MatchMaker : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	
+
 	}
 
 	// any of the CharacterStruts can be null (to put nobody on that track)
 	public Pair<CharacterStruct, CharacterStruct> getPair() {
-		var pool = characterPool.getCharacterPool ();
+		List<CharacterStruct> pool = characterPool.getCharacterPool ();
 
 		// Grab two randos!
-		Random rand = new Random ();
-		int firstIndex = rand.Next(pool.Count);
-		int secondIndex = rand.Next (pool.Count);
-
+		int firstIndex = Random.Range(0, pool.Count);
+		int secondIndex = Random.Range (0, pool.Count);
+	
 		CharacterStruct person1 = pool [firstIndex];
 		CharacterStruct person2 = pool[secondIndex];
 
 		// For the first few pairs, let one part of the track be empty
 		//	(so the decision isn't too hard, ya know?)
-		if (numberOfPairsGiven < 5) {
-			// 50% chance of left or right side being empty.
-			if (rand.NextDouble () > 0.5) {
+		if (numberOfPairsGiven < 15) {
+			// 50% chance of left or right side being empty on the first few.
+			if (Random.Range((float)0, (float)1) > 0.5) {
+				this.numberOfPairsGiven++;
 				return new Pair<CharacterStruct, CharacterStruct> (null, person2);
 			} else {
+				this.numberOfPairsGiven++;
 				return new Pair<CharacterStruct, CharacterStruct> (person1, null);
 			}
 		} else {
+			this.numberOfPairsGiven++;
 			return new Pair<CharacterStruct, CharacterStruct> (person1, person2);
 		}
 	}

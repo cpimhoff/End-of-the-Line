@@ -10,7 +10,7 @@ public class CharacterPool : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		characters = new List<CharacterStruct> ();
+		this.characters = new List<CharacterStruct> ();
 
 		foreach (string location in jsonFileLocationStrings) {
 			var lines = File.ReadAllLines(location);
@@ -19,7 +19,7 @@ public class CharacterPool : MonoBehaviour {
 			// it's a hackathon though so we're cutting corners, you know?!
 			foreach (var line in lines) {
 				CharacterStruct character = CharacterStruct.createFromJSONString(line);
-				characters.Add (character);
+				this.characters.Add (character);
 			}
 		}
 	}
