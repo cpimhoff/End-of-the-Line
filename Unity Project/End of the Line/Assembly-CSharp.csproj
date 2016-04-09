@@ -64,6 +64,7 @@
      <Compile Include="Assets\World Generation\Parts\Script\RailTrack.cs" />
      <Compile Include="Assets\World Generation\Parts\Script\RayGizmo.cs" />
      <Compile Include="Assets\World Generation\Testing\TestGeneratePatch.cs" />
+     <None Include="Assets\Primary Gameplay\Sugar\CurvedWorld.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
