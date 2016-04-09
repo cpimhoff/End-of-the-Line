@@ -7,7 +7,6 @@ using System.Collections;
 public class DieWhenHitByTrain : MonoBehaviour {
 
 	public string trainTag = "Train";
-	public CharacterPool characterPool;
 	RequireComponent Collider;
 
 	// Called when a Collider enters this object's trigger space
@@ -20,14 +19,10 @@ public class DieWhenHitByTrain : MonoBehaviour {
  	private void OnHitByTrain () {
 		Destroy (this.gameObject);
 
-		// to-done! send death info to CharacterPool
-		var charry = GetComponent<InitFromCharacterStruct> ();
-		var characterStr = charry.GetCharacterInfo();
-		// characterPool.addDeathForCharacter (characterStr);
-
 		// to-done! blood
 		GetComponent<BloodSplatter>().Splat ();
 
+		// TODO: send death info to CharacterPool
 		// TODO: repent
 	}
 }

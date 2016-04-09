@@ -24,4 +24,8 @@ public class CharacterStruct {
 
 		return charStr;
 	}
+
+	public string toString() {
+		return this.name;
+	}
 }

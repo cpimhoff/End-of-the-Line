@@ -26,11 +26,13 @@ public class PatchGenerator : MonoBehaviour {
 			character1.GetComponent<InitFromCharacterStruct> ().SetCharacterInfo (pair.First);
 			character1.transform.SetParent (patch.transform);
 			character1.transform.position = replaceThese [i].transform.position;
+			Debug.Log (pair.First);
 
 			GameObject character2 = GameObject.Instantiate (characterTemplate);
 			character2.GetComponent<InitFromCharacterStruct> ().SetCharacterInfo (pair.Second);
 			character2.transform.SetParent (patch.transform);
 			character2.transform.position = replaceThese [i+1].transform.position;
+			Debug.Log (pair.Second);
 
 			replaceThese [i].tag = "Untagged";
 			replaceThese [i].SetActive (false);
