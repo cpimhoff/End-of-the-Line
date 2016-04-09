@@ -10,7 +10,7 @@ public class CharacterStruct {
 	public string sprite; //takes in the person's png
 	private Dictionary<string, string> data;
 
-	public static CharacterStruct createFromJSON(string jsonString) { //parses a JSON file and turns it into a type character struct
+	public static CharacterStruct createFromJSONString(string jsonString) { //parses a JSON file and turns it into a type character struct
 		var jsonParsed = JSON.Parse(jsonString);
 
 		var theName = jsonParsed ["name"];
@@ -23,5 +23,5 @@ public class CharacterStruct {
 		charStr.sprite = theSprite;
 
 		return charStr;
-	}		
+	}
 }

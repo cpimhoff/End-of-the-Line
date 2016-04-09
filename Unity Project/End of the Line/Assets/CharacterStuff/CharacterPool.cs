@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
+using System.IO;
 
 public class CharacterPool : MonoBehaviour {
 
@@ -12,15 +13,16 @@ public class CharacterPool : MonoBehaviour {
 		characters = new List<CharacterStruct> ();
 
 		foreach (string location in jsonFileLocationStrings) {
-			var filestream = new System.IO.FileStream(location,
-				System.IO.FileMode.Open,
-				System.IO.FileAccess.Read,
-				System.IO.FileShare.ReadWrite);
-			var file = new System.IO.StreamReader(filestream, System.Text.Encoding.UTF8, true, 128);
+			var jsonContents = File.ReadAllText (location);
 
-			CharacterStruct character = CharacterStruct.createFromJSON(file.ReadToEnd ());
+			var lines = File.ReadAllLines(location);
 
-			characters.Add (character);
+			// These JSON files are poorly formatted. Each line is a separate JSON object.
+			// it's a hackathon though so we're cutting corners, you know?!
+			foreach (var line in lines) {
+				CharacterStruct character = CharacterStruct.createFromJSONString(line);
+				characters.Add (character);
+			}
 		}
 	}
 	
