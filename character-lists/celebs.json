@@ -1,0 +1,434 @@
+  {"type": "celeb", "name": "Adele", "sprite": "Adele"}
+  {"type": "celeb", "name": "Aristotle", "sprite": "Aristotle"}
+  {"type": "celeb", "name": "Amy Adams", "sprite": "Amy Adams"}
+  {"type": "celeb", "name": "Abigail Breslin", "sprite": "Abigail Breslin"}
+  {"type": "celeb", "name": "Adam Brody", "sprite": "Adam Brody"}
+  {"type": "celeb", "name": "Adrien Brody", "sprite": "Adrien Brody"}
+  {"type": "celeb", "name": "Alec Baldwin", "sprite": "Alec Baldwin"}
+  {"type": "celeb", "name": "Alexander Graham Bell", "sprite": "Alexander Graham Bell"}
+  {"type": "celeb", "name": "Alexis Bledel", "sprite": "Alexis Bledel"}
+  {"type": "celeb", "name": "Amanda Bynes", "sprite": "Amanda Bynes"}
+  {"type": "celeb", "name": "Andrea Bocelli", "sprite": "Andrea Bocelli"}
+  {"type": "celeb", "name": "Angela Bassett", "sprite": "Angela Bassett"}
+  {"type": "celeb", "name": "Antonio Banderas", "sprite": "Antonio Banderas"}
+  {"type": "celeb", "name": "Aaron Copland", "sprite": "Aaron Copland"}
+  {"type": "celeb", "name": "Agatha Christie", "sprite": "Agatha Christie"}
+  {"type": "celeb", "name": "Al Capone", "sprite": "Al Capone"}
+  {"type": "celeb", "name": "Alice Cooper", "sprite": "Alice Cooper"}
+  {"type": "celeb", "name": "Alistair Cooke", "sprite": "Alistair Cooke"}
+  {"type": "celeb", "name": "Angela Cartwright", "sprite": "Angela Cartwright"}
+  {"type": "celeb", "name": "Angela Davis", "sprite": "Angela Davis"}
+  {"type": "celeb", "name": "Albert Einstein", "sprite": "Albert Einstein"}
+  {"type": "celeb", "name": "Amelia Earhart", "sprite": "Amelia Earhart"}
+  {"type": "celeb", "name": "America Ferrera", "sprite": "America Ferrera"}
+  {"type": "celeb", "name": "Anne Frank", "sprite": "Anne Frank"}
+  {"type": "celeb", "name": "Aretha Franklin", "sprite": "Aretha Franklin"}
+  {"type": "celeb", "name": "Al Gore", "sprite": "Al Gore"}
+  {"type": "celeb", "name": "Alexander the Great", "sprite": "Alexander the Great"}
+  {"type": "celeb", "name": "Allen Ginsberg", "sprite": "Allen Ginsberg"}
+  {"type": "celeb", "name": "Andre the Giant", "sprite": "Andre the Giant"}
+  {"type": "celeb", "name": "Andrew Greeley", "sprite": "Andrew Greeley"}
+  {"type": "celeb", "name": "Andy Griffith", "sprite": "Andy Griffith"}
+  {"type": "celeb", "name": "Art Garfunkel", "sprite": "Art Garfunkel"}
+  {"type": "celeb", "name": "Adolf Hitler", "sprite": "Adolf Hitler"}
+  {"type": "celeb", "name": "Aldous Huxley", "sprite": "Aldous Huxley"}
+  {"type": "celeb", "name": "Alexander Hamilton", "sprite": "Alexander Hamilton"}
+  {"type": "celeb", "name": "Alfred Hitchcock", "sprite": "Alfred Hitchcock"}
+  {"type": "celeb", "name": "Anthony Hopkins", "sprite": "Anthony Hopkins"}
+  {"type": "celeb", "name": "Audrey Hepburn", "sprite": "Audrey Hepburn"}
+  {"type": "celeb", "name": "Agnelina Jolie", "sprite": "Agnelina Jolie"}
+  {"type": "celeb", "name": "Andrew Jackson", "sprite": "Andrew Jackson"}
+  {"type": "celeb", "name": "Andrew Johnson", "sprite": "Andrew Johnson"}
+  {"type": "celeb", "name": "Alicia Keys", "sprite": "Alicia Keys"}
+  {"type": "celeb", "name": "Ashton Kutcher", "sprite": "Ashton Kutcher"}
+  {"type": "celeb", "name": "Abraham Lincoln", "sprite": "Abraham Lincoln"}
+  {"type": "celeb", "name": "Avril Lavigne", "sprite": "Avril Lavigne"}
+  {"type": "celeb", "name": "A.A. Milne", "sprite": "A.A. Milne"}
+  {"type": "celeb", "name": "Alfred Nobel", "sprite": "Alfred Nobel"}
+  {"type": "celeb", "name": "Annie Oakley", "sprite": "Annie Oakley"}
+  {"type": "celeb", "name": "Ashley Olsen", "sprite": "Ashley Olsen"}
+  {"type": "celeb", "name": "Amy Poehler", "sprite": "Amy Poehler"}
+  {"type": "celeb", "name": "Andre Previn", "sprite": "Andre Previn"}
+  {"type": "celeb", "name": "Arnold Palmer", "sprite": "Arnold Palmer"}
+  {"type": "celeb", "name": "Alan Rickman", "sprite": "Alan Rickman"}
+  {"type": "celeb", "name": "Anika Noni Rose", "sprite": "Anika Noni Rose"}
+  {"type": "celeb", "name": "Axl Rose", "sprite": "Axl Rose"}
+  {"type": "celeb", "name": "Ayn Rand", "sprite": "Ayn Rand"}
+  {"type": "celeb", "name": "Adam Sandler", "sprite": "Adam Sandler"}
+  {"type": "celeb", "name": "Alicia Silverstone", "sprite": "Alicia Silverstone"}
+  {"type": "celeb", "name": "Arnold Schwarzenegger", "sprite": "Arnold Schwarzenegger"}
+  {"type": "celeb", "name": "Ashley Simpson", "sprite": "Ashley Simpson"}
+  {"type": "celeb", "name": "Aisha Tyler", "sprite": "Aisha Tyler"}
+  {"type": "celeb", "name": "Alan Turing", "sprite": "Alan Turing"}
+  {"type": "celeb", "name": "Alex Trebek", "sprite": "Alex Trebek"}
+  {"type": "celeb", "name": "Ashley Tisdale", "sprite": "Ashley Tisdale"}
+  {"type": "celeb", "name": "Alexa Vega", "sprite": "Alexa Vega"}
+  {"type": "celeb", "name": "Amy Winehouse", "sprite": "Amy Winehouse"}
+  {"type": "celeb", "name": "Andrew Lloyd Webber", "sprite": "Andrew Lloyd Webber"}
+  {"type": "celeb", "name": "Andy Warhol", "sprite": "Andy Warhol"}
+  {"type": "celeb", "name": "Al Yankovic", "sprite": "Al Yankovic"}
+  {"type": "celeb", "name": "Bach", "sprite": "Bach"}
+  {"type": "celeb", "name": "Beck", "sprite": "Beck"}
+  {"type": "celeb", "name": "Beethoven", "sprite": "Beethoven"}
+  {"type": "celeb", "name": "Beyonce", "sprite": "Beyonce"}
+  {"type": "celeb", "name": "Bono", "sprite": "Bono"}
+  {"type": "celeb", "name": "Ben Affleck", "sprite": "Ben Affleck"}
+  {"type": "celeb", "name": "Benedict Arnold", "sprite": "Benedict Arnold"}
+  {"type": "celeb", "name": "Billie Joe Armstrong", "sprite": "Billie Joe Armstrong"}
+  {"type": "celeb", "name": "Buzz Aldrin", "sprite": "Buzz Aldrin"}
+  {"type": "celeb", "name": "Barbara Bush", "sprite": "Barbara Bush"}
+  {"type": "celeb", "name": "Bob Barker", "sprite": "Bob Barker"}
+  {"type": "celeb", "name": "Buffalo Bill", "sprite": "Buffalo Bill"}
+  {"type": "celeb", "name": "Bill Clinton", "sprite": "Bill Clinton"}
+  {"type": "celeb", "name": "Bill Cosby", "sprite": "Bill Cosby"}
+  {"type": "celeb", "name": "Billy Crystal", "sprite": "Billy Crystal"}
+  {"type": "celeb", "name": "Billy Ray Cyrus", "sprite": "Billy Ray Cyrus"}
+  {"type": "celeb", "name": "Bing Crosby", "sprite": "Bing Crosby"}
+  {"type": "celeb", "name": "Bette Davis", "sprite": "Bette Davis"}
+  {"type": "celeb", "name": "Bob Dylan", "sprite": "Bob Dylan"}
+  {"type": "celeb", "name": "Benjamin Franklin", "sprite": "Benjamin Franklin"}
+  {"type": "celeb", "name": "Betty Friedan", "sprite": "Betty Friedan"}
+  {"type": "celeb", "name": "Bill Gates", "sprite": "Bill Gates"}
+  {"type": "celeb", "name": "Billie Holiday", "sprite": "Billie Holiday"}
+  {"type": "celeb", "name": "Billy Idol", "sprite": "Billy Idol"}
+  {"type": "celeb", "name": "Billy Joel", "sprite": "Billy Joel"}
+  {"type": "celeb", "name": "Billie Jean King", "sprite": "Billie Jean King"}
+  {"type": "celeb", "name": "Billy the Kid", "sprite": "Billy the Kid"}
+  {"type": "celeb", "name": "Bela Lugosi", "sprite": "Bela Lugosi"}
+  {"type": "celeb", "name": "Bruce Lee", "sprite": "Bruce Lee"}
+  {"type": "celeb", "name": "Benito Mussolini", "sprite": "Benito Mussolini"}
+  {"type": "celeb", "name": "Bill Maher", "sprite": "Bill Maher"}
+  {"type": "celeb", "name": "Bill Murray", "sprite": "Bill Murray"}
+  {"type": "celeb", "name": "Bob Marley", "sprite": "Bob Marley"}
+  {"type": "celeb", "name": "Barack Obama", "sprite": "Barack Obama"}
+  {"type": "celeb", "name": "Brad Pitt", "sprite": "Brad Pitt"}
+  {"type": "celeb", "name": "Babe Ruth", "sprite": "Babe Ruth"}
+  {"type": "celeb", "name": "Betsy Ross", "sprite": "Betsy Ross"}
+  {"type": "celeb", "name": "Barbara Streisand", "sprite": "Barbara Streisand"}
+  {"type": "celeb", "name": "Ben Stiller", "sprite": "Ben Stiller"}
+  {"type": "celeb", "name": "Bob Saget", "sprite": "Bob Saget"}
+  {"type": "celeb", "name": "Britney Spears", "sprite": "Britney Spears"}
+  {"type": "celeb", "name": "Brooke Shields", "sprite": "Brooke Shields"}
+  {"type": "celeb", "name": "Bruce Springsteen", "sprite": "Bruce Springsteen"}
+  {"type": "celeb", "name": "Brendon Urie", "sprite": "Brendon Urie"}
+  {"type": "celeb", "name": "Betty White", "sprite": "Betty White"}
+  {"type": "celeb", "name": "Booker T. Washington", "sprite": "Booker T. Washington"}
+  {"type": "celeb", "name": "Bruce Willis", "sprite": "Bruce Willis"}
+  {"type": "celeb", "name": "Cher", "sprite": "Cher"}
+  {"type": "celeb", "name": "Cleopatra", "sprite": "Cleopatra"}
+  {"type": "celeb", "name": "Coolio", "sprite": "Coolio"}
+  {"type": "celeb", "name": "Christina Aguilara", "sprite": "Christina Aguilara"}
+  {"type": "celeb", "name": "Criss Angel", "sprite": "Criss Angel"}
+  {"type": "celeb", "name": "Chris Brown", "sprite": "Chris Brown"}
+  {"type": "celeb", "name": "Christian Bale", "sprite": "Christian Bale"}
+  {"type": "celeb", "name": "Chuck Berry", "sprite": "Chuck Berry"}
+  {"type": "celeb", "name": "Cesar Chavez", "sprite": "Cesar Chavez"}
+  {"type": "celeb", "name": "Charlie Chaplin", "sprite": "Charlie Chaplin"}
+  {"type": "celeb", "name": "Chevy Chase", "sprite": "Chevy Chase"}
+  {"type": "celeb", "name": "Christopher Columbus", "sprite": "Christopher Columbus"}
+  {"type": "celeb", "name": "Cindy Crawford", "sprite": "Cindy Crawford"}
+  {"type": "celeb", "name": "Cameron Diaz", "sprite": "Cameron Diaz"}
+  {"type": "celeb", "name": "Celine Dion", "sprite": "Celine Dion"}
+  {"type": "celeb", "name": "Charles Darwin", "sprite": "Charles Darwin"}
+  {"type": "celeb", "name": "Charles Dickens", "sprite": "Charles Dickens"}
+  {"type": "celeb", "name": "Claude Debussy", "sprite": "Claude Debussy"}
+  {"type": "celeb", "name": "Carmen Electra", "sprite": "Carmen Electra"}
+  {"type": "celeb", "name": "Clint Eastwood", "sprite": "Clint Eastwood"}
+  {"type": "celeb", "name": "Colin Firth", "sprite": "Colin Firth"}
+  {"type": "celeb", "name": "Che Guevara", "sprite": "Che Guevara"}
+  {"type": "celeb", "name": "Calvin Klein", "sprite": "Calvin Klein"}
+  {"type": "celeb", "name": "C.S. Lewis", "sprite": "C.S. Lewis"}
+  {"type": "celeb", "name": "Courtney Love", "sprite": "Courtney Love"}
+  {"type": "celeb", "name": "Cyndi Lauper", "sprite": "Cyndi Lauper"}
+  {"type": "celeb", "name": "Claude Monet", "sprite": "Claude Monet"}
+  {"type": "celeb", "name": "Conan OBrien", "sprite": "Conan OBrien"}
+  {"type": "celeb", "name": "Chris Pine", "sprite": "Chris Pine"}
+  {"type": "celeb", "name": "Condoleezza Rice", "sprite": "Condoleezza Rice"}
+  {"type": "celeb", "name": "Carl Sagan", "sprite": "Carl Sagan"}
+  {"type": "celeb", "name": "Cat Stevens", "sprite": "Cat Stevens"}
+  {"type": "celeb", "name": "Charlie Sheen", "sprite": "Charlie Sheen"}
+  {"type": "celeb", "name": "Chiang Kai Shek", "sprite": "Chiang Kai Shek"}
+  {"type": "celeb", "name": "Cole Sprouse", "sprite": "Cole Sprouse"}
+  {"type": "celeb", "name": "Charlize Theron", "sprite": "Charlize Theron"}
+  {"type": "celeb", "name": "Carrie Underwood", "sprite": "Carrie Underwood"}
+  {"type": "celeb", "name": "Christopher Walken", "sprite": "Christopher Walken"}
+  {"type": "celeb", "name": "Dan Brown", "sprite": "Dan Brown"}
+  {"type": "celeb", "name": "David Beckham", "sprite": "David Beckham"}
+  {"type": "celeb", "name": "David Blaine", "sprite": "David Blaine"}
+  {"type": "celeb", "name": "David Bowie", "sprite": "David Bowie"}
+  {"type": "celeb", "name": "Dick Butkus", "sprite": "Dick Butkus"}
+  {"type": "celeb", "name": "Drew Barrymore", "sprite": "Drew Barrymore"}
+  {"type": "celeb", "name": "David Copperfield", "sprite": "David Copperfield"}
+  {"type": "celeb", "name": "Dick Cheney", "sprite": "Dick Cheney"}
+  {"type": "celeb", "name": "Dick Clark", "sprite": "Dick Clark"}
+  {"type": "celeb", "name": "Drew Carey", "sprite": "Drew Carey"}
+  {"type": "celeb", "name": "Daniel Day-Lewis", "sprite": "Daniel Day-Lewis"}
+  {"type": "celeb", "name": "Danny DeVito", "sprite": "Danny DeVito"}
+  {"type": "celeb", "name": "Dr. Dre", "sprite": "Dr. Dre"}
+  {"type": "celeb", "name": "Dr. Drew", "sprite": "Dr. Drew"}
+  {"type": "celeb", "name": "Duke Ellington", "sprite": "Duke Ellington"}
+  {"type": "celeb", "name": "Dwight D. Eisenhower", "sprite": "Dwight D. Eisenhower"}
+  {"type": "celeb", "name": "Dakota Fanning", "sprite": "Dakota Fanning"}
+  {"type": "celeb", "name": "Danny Glover", "sprite": "Danny Glover"}
+  {"type": "celeb", "name": "David Hasselhoff", "sprite": "David Hasselhoff"}
+  {"type": "celeb", "name": "Dwayne Johnson", "sprite": "Dwayne Johnson"}
+  {"type": "celeb", "name": "Dalai Lama", "sprite": "Dalai Lama"}
+  {"type": "celeb", "name": "David Letterman", "sprite": "David Letterman"}
+  {"type": "celeb", "name": "Demi Lovato", "sprite": "Demi Lovato"}
+  {"type": "celeb", "name": "Denis Leary", "sprite": "Denis Leary"}
+  {"type": "celeb", "name": "Dave Matthews", "sprite": "Dave Matthews"}
+  {"type": "celeb", "name": "Demi Moore", "sprite": "Demi Moore"}
+  {"type": "celeb", "name": "Donny Osmond", "sprite": "Donny Osmond"}
+  {"type": "celeb", "name": "Dev Patel", "sprite": "Dev Patel"}
+  {"type": "celeb", "name": "Dolly Parton", "sprite": "Dolly Parton"}
+  {"type": "celeb", "name": "Dr. Phil", "sprite": "Dr. Phil"}
+  {"type": "celeb", "name": "Dennis Quaid", "sprite": "Dennis Quaid"}
+  {"type": "celeb", "name": "Dr. Seuss", "sprite": "Dr. Seuss"}
+  {"type": "celeb", "name": "Dylan Sprouse", "sprite": "Dylan Sprouse"}
+  {"type": "celeb", "name": "Donald Trump", "sprite": "Donald Trump"}
+  {"type": "celeb", "name": "Denzel Washington", "sprite": "Denzel Washington"}
+  {"type": "celeb", "name": "Eminem", "sprite": "Eminem"}
+  {"type": "celeb", "name": "Elvis Costello", "sprite": "Elvis Costello"}
+  {"type": "celeb", "name": "Eric Clapton", "sprite": "Eric Clapton"}
+  {"type": "celeb", "name": "e.e. cummings", "sprite": "e.e. cummings"}
+  {"type": "celeb", "name": "Ellen DeGeneres", "sprite": "Ellen DeGeneres"}
+  {"type": "celeb", "name": "Eddie Van Halen", "sprite": "Eddie Van Halen"}
+  {"type": "celeb", "name": "Elton John", "sprite": "Elton John"}
+  {"type": "celeb", "name": "Eddie Murphy", "sprite": "Eddie Murphy"}
+  {"type": "celeb", "name": "Emily Osment", "sprite": "Emily Osment"}
+  {"type": "celeb", "name": "Edgar Allen Poe", "sprite": "Edgar Allen Poe"}
+  {"type": "celeb", "name": "Elvis Presley", "sprite": "Elvis Presley"}
+  {"type": "celeb", "name": "Eleanor Roosevelt", "sprite": "Eleanor Roosevelt"}
+  {"type": "celeb", "name": "Elijah Wood", "sprite": "Elijah Wood"}
+  {"type": "celeb", "name": "Emma Watson", "sprite": "Emma Watson"}
+  {"type": "celeb", "name": "Fabio", "sprite": "Fabio"}
+  {"type": "celeb", "name": "Fergie", "sprite": "Fergie"}
+  {"type": "celeb", "name": "Fidel Castro", "sprite": "Fidel Castro"}
+  {"type": "celeb", "name": "Flavor Flav", "sprite": "Flavor Flav"}
+  {"type": "celeb", "name": "Franz Kafka", "sprite": "Franz Kafka"}
+  {"type": "celeb", "name": "Frida Kahlo", "sprite": "Frida Kahlo"}
+  {"type": "celeb", "name": "Franklin D. Roosevelt", "sprite": "Franklin D. Roosevelt"}
+  {"type": "celeb", "name": "Frank Sinatra", "sprite": "Frank Sinatra"}
+  {"type": "celeb", "name": "Frank Lloyd Wright", "sprite": "Frank Lloyd Wright"}
+  {"type": "celeb", "name": "Gandhi", "sprite": "Gandhi"}
+  {"type": "celeb", "name": "George Bush", "sprite": "George Bush"}
+  {"type": "celeb", "name": "George W. Bush", "sprite": "George W. Bush"}
+  {"type": "celeb", "name": "Glenn Beck", "sprite": "Glenn Beck"}
+  {"type": "celeb", "name": "George Clooney", "sprite": "George Clooney"}
+  {"type": "celeb", "name": "Guy Fieri", "sprite": "Guy Fieri"}
+  {"type": "celeb", "name": "Galileo Galilei", "sprite": "Galileo Galilei"}
+  {"type": "celeb", "name": "Groucho Marx", "sprite": "Groucho Marx"}
+  {"type": "celeb", "name": "Gary Oldman", "sprite": "Gary Oldman"}
+  {"type": "celeb", "name": "Georgia OKeeffe", "sprite": "Georgia OKeeffe"}
+  {"type": "celeb", "name": "Gwyneth Paltrow", "sprite": "Gwyneth Paltrow"}
+  {"type": "celeb", "name": "Gene Simmons", "sprite": "Gene Simmons"}
+  {"type": "celeb", "name": "Gwen Stefani", "sprite": "Gwen Stefani"}
+  {"type": "celeb", "name": "George Takei", "sprite": "George Takei"}
+  {"type": "celeb", "name": "Halle Berry", "sprite": "Halle Berry"}
+  {"type": "celeb", "name": "Hilary Clinton", "sprite": "Hilary Clinton"}
+  {"type": "celeb", "name": "Hilary Duff", "sprite": "Hilary Duff"}
+  {"type": "celeb", "name": "Harrison Ford", "sprite": "Harrison Ford"}
+  {"type": "celeb", "name": "Harry Houdini", "sprite": "Harry Houdini"}
+  {"type": "celeb", "name": "Hugh Hefner", "sprite": "Hugh Hefner"}
+  {"type": "celeb", "name": "Hulk Hogan", "sprite": "Hulk Hogan"}
+  {"type": "celeb", "name": "Hugh Jackman", "sprite": "Hugh Jackman"}
+  {"type": "celeb", "name": "Heidi Klum", "sprite": "Heidi Klum"}
+  {"type": "celeb", "name": "Helen Keller", "sprite": "Helen Keller"}
+  {"type": "celeb", "name": "Helen Mirren", "sprite": "Helen Mirren"}
+  {"type": "celeb", "name": "Howie Mandel", "sprite": "Howie Mandel"}
+  {"type": "celeb", "name": "Hayden Panettiere", "sprite": "Hayden Panettiere"}
+  {"type": "celeb", "name": "Hilary Swank", "sprite": "Hilary Swank"}
+  {"type": "celeb", "name": "Ice Cube", "sprite": "Ice Cube"}
+  {"type": "celeb", "name": "Iggy Pop", "sprite": "Iggy Pop"}
+  {"type": "celeb", "name": "Ice T", "sprite": "Ice T"}
+  {"type": "celeb", "name": "Jennifer Aniston", "sprite": "Jennifer Aniston"}
+  {"type": "celeb", "name": "Jessica Alba", "sprite": "Jessica Alba"}
+  {"type": "celeb", "name": "Joan of Arc", "sprite": "Joan of Arc"}
+  {"type": "celeb", "name": "Julie Andrews", "sprite": "Julie Andrews"}
+  {"type": "celeb", "name": "Jack Black", "sprite": "Jack Black"}
+  {"type": "celeb", "name": "Joe Biden", "sprite": "Joe Biden"}
+  {"type": "celeb", "name": "Johann Sebastian Bach", "sprite": "Johann Sebastian Bach"}
+  {"type": "celeb", "name": "Justin Bieber", "sprite": "Justin Bieber"}
+  {"type": "celeb", "name": "James Cameron", "sprite": "James Cameron"}
+  {"type": "celeb", "name": "Jim Carrey", "sprite": "Jim Carrey"}
+  {"type": "celeb", "name": "Johnny Cash", "sprite": "Johnny Cash"}
+  {"type": "celeb", "name": "Julian Casablancas", "sprite": "Julian Casablancas"}
+  {"type": "celeb", "name": "John Denver", "sprite": "John Denver"}
+  {"type": "celeb", "name": "Johnny Depp", "sprite": "Johnny Depp"}
+  {"type": "celeb", "name": "Julia Louis Dreyfus", "sprite": "Julia Louis Dreyfus"}
+  {"type": "celeb", "name": "Jamie Foxx", "sprite": "Jamie Foxx"}
+  {"type": "celeb", "name": "Jimmy Fallon", "sprite": "Jimmy Fallon"}
+  {"type": "celeb", "name": "Jodie Foster", "sprite": "Jodie Foster"}
+  {"type": "celeb", "name": "Jake Gyllenhaal", "sprite": "Jake Gyllenhaal"}
+  {"type": "celeb", "name": "Jeff Goldblum", "sprite": "Jeff Goldblum"}
+  {"type": "celeb", "name": "Jeff Gordon", "sprite": "Jeff Gordon"}
+  {"type": "celeb", "name": "Jennie Garth", "sprite": "Jennie Garth"}
+  {"type": "celeb", "name": "Jon Bon Jovi", "sprite": "Jon Bon Jovi"}
+  {"type": "celeb", "name": "John F. Kennedy", "sprite": "John F. Kennedy"}
+  {"type": "celeb", "name": "Jay Leno", "sprite": "Jay Leno"}
+  {"type": "celeb", "name": "Jennifer Lopez", "sprite": "Jennifer Lopez"}
+  {"type": "celeb", "name": "John Madden", "sprite": "John Madden"}
+  {"type": "celeb", "name": "John McCain", "sprite": "John McCain"}
+  {"type": "celeb", "name": "Jack Nicholson", "sprite": "Jack Nicholson"}
+  {"type": "celeb", "name": "J.K. Rowling", "sprite": "J.K. Rowling"}
+  {"type": "celeb", "name": "Jerry Seinfeld", "sprite": "Jerry Seinfeld"}
+  {"type": "celeb", "name": "Judge Judy Sheindlin", "sprite": "Judge Judy Sheindlin"}
+  {"type": "celeb", "name": "J.R.R. Tolkien", "sprite": "J.R.R. Tolkien"}
+  {"type": "celeb", "name": "Justin Timberlake", "sprite": "Justin Timberlake"}
+  {"type": "celeb", "name": "Jack White", "sprite": "Jack White"}
+  {"type": "celeb", "name": "Jay Z", "sprite": "Jay Z"}
+  {"type": "celeb", "name": "Kareem Abdul-Jabbar", "sprite": "Kareem Abdul-Jabbar"}
+  {"type": "celeb", "name": "Kevin Bacon", "sprite": "Kevin Bacon"}
+  {"type": "celeb", "name": "Kobe Bryant", "sprite": "Kobe Bryant"}
+  {"type": "celeb", "name": "Katie Couric", "sprite": "Katie Couric"}
+  {"type": "celeb", "name": "Kurt Cobain", "sprite": "Kurt Cobain"}
+  {"type": "celeb", "name": "Kat Von D", "sprite": "Kat Von D"}
+  {"type": "celeb", "name": "Kirsten Dunst", "sprite": "Kirsten Dunst"}
+  {"type": "celeb", "name": "Kate Hudson", "sprite": "Kate Hudson"}
+  {"type": "celeb", "name": "Katharine Hepburn", "sprite": "Katharine Hepburn"}
+  {"type": "celeb", "name": "Katie Holmes", "sprite": "Katie Holmes"}
+  {"type": "celeb", "name": "Kim Jong Il", "sprite": "Kim Jong Il"}
+  {"type": "celeb", "name": "aka", "sprite": "aka"}
+  {"type": "celeb", "name": "Keira Knightley", "sprite": "Keira Knightley"}
+  {"type": "celeb", "name": "Kim Kardashian", "sprite": "Kim Kardashian"}
+  {"type": "celeb", "name": "Kourtney Kardashian", "sprite": "Kourtney Kardashian"}
+  {"type": "celeb", "name": "Karl Marx", "sprite": "Karl Marx"}
+  {"type": "celeb", "name": "Keanu Reeves", "sprite": "Keanu Reeves"}
+  {"type": "celeb", "name": "Kid Rock", "sprite": "Kid Rock"}
+  {"type": "celeb", "name": "Kevin Spacey", "sprite": "Kevin Spacey"}
+  {"type": "celeb", "name": "Kanye West", "sprite": "Kanye West"}
+  {"type": "celeb", "name": "Lance Armstrong", "sprite": "Lance Armstrong"}
+  {"type": "celeb", "name": "Lily Allen", "sprite": "Lily Allen"}
+  {"type": "celeb", "name": "Louis Armstrong", "sprite": "Louis Armstrong"}
+  {"type": "celeb", "name": "Ludwig van Beethoven", "sprite": "Ludwig van Beethoven"}
+  {"type": "celeb", "name": "LL Cool-J", "sprite": "LL Cool-J"}
+  {"type": "celeb", "name": "Leonardo DiCaprio", "sprite": "Leonardo DiCaprio"}
+  {"type": "celeb", "name": "Lady Gaga", "sprite": "Lady Gaga"}
+  {"type": "celeb", "name": "Lucy Liu", "sprite": "Lucy Liu"}
+  {"type": "celeb", "name": "Leonard Nimoy", "sprite": "Leonard Nimoy"}
+  {"type": "celeb", "name": "Liam Neeson", "sprite": "Liam Neeson"}
+  {"type": "celeb", "name": "Lionel Richie", "sprite": "Lionel Richie"}
+  {"type": "celeb", "name": "Lou Reed", "sprite": "Lou Reed"}
+  {"type": "celeb", "name": "Leonardo da Vinci", "sprite": "Leonardo da Vinci"}
+  {"type": "celeb", "name": "Madonna", "sprite": "Madonna"}
+  {"type": "celeb", "name": "Meatloaf", "sprite": "Meatloaf"}
+  {"type": "celeb", "name": "Michelangelo", "sprite": "Michelangelo"}
+  {"type": "celeb", "name": "Moby", "sprite": "Moby"}
+  {"type": "celeb", "name": "Morrissey", "sprite": "Morrissey"}
+  {"type": "celeb", "name": "Madeleine Albright", "sprite": "Madeleine Albright"}
+  {"type": "celeb", "name": "Muhammad Ali", "sprite": "Muhammad Ali"}
+  {"type": "celeb", "name": "Mary J. Blige", "sprite": "Mary J. Blige"}
+  {"type": "celeb", "name": "Mason Betha", "sprite": "Mason Betha"}
+  {"type": "celeb", "name": "Matthew Broderick", "sprite": "Matthew Broderick"}
+  {"type": "celeb", "name": "Mariah Carey", "sprite": "Mariah Carey"}
+  {"type": "celeb", "name": "Miley Cyrus", "sprite": "Miley Cyrus"}
+  {"type": "celeb", "name": "Matt Damon", "sprite": "Matt Damon"}
+  {"type": "celeb", "name": "Missy Elliott", "sprite": "Missy Elliott"}
+  {"type": "celeb", "name": "Morgan Freeman", "sprite": "Morgan Freeman"}
+  {"type": "celeb", "name": "Marvin Gaye", "sprite": "Marvin Gaye"}
+  {"type": "celeb", "name": "Matt Groening", "sprite": "Matt Groening"}
+  {"type": "celeb", "name": "Mel Gibson", "sprite": "Mel Gibson"}
+  {"type": "celeb", "name": "M.C. Hammer", "sprite": "M.C. Hammer"}
+  {"type": "celeb", "name": "Mia Hamm", "sprite": "Mia Hamm"}
+  {"type": "celeb", "name": "Magic Johnson", "sprite": "Magic Johnson"}
+  {"type": "celeb", "name": "Michael Jackson", "sprite": "Michael Jackson"}
+  {"type": "celeb", "name": "Michael Jordan", "sprite": "Michael Jordan"}
+  {"type": "celeb", "name": "Mick Jagger", "sprite": "Mick Jagger"}
+  {"type": "celeb", "name": "Milla Jovovich", "sprite": "Milla Jovovich"}
+  {"type": "celeb", "name": "Martin Luther King", "sprite": "Martin Luther King"}
+  {"type": "celeb", "name": "Marilyn Monroe", "sprite": "Marilyn Monroe"}
+  {"type": "celeb", "name": "Mary-Kate Olsen", "sprite": "Mary-Kate Olsen"}
+  {"type": "celeb", "name": "Michelle Obama", "sprite": "Michelle Obama"}
+  {"type": "celeb", "name": "Matthew Perry", "sprite": "Matthew Perry"}
+  {"type": "celeb", "name": "Maggie Smith", "sprite": "Maggie Smith"}
+  {"type": "celeb", "name": "Maria Sharapova", "sprite": "Maria Sharapova"}
+  {"type": "celeb", "name": "Martha Stewart", "sprite": "Martha Stewart"}
+  {"type": "celeb", "name": "Mao Tse-tung", "sprite": "Mao Tse-tung"}
+  {"type": "celeb", "name": "Mike Tyson", "sprite": "Mike Tyson"}
+  {"type": "celeb", "name": "Mother Teresa", "sprite": "Mother Teresa"}
+  {"type": "celeb", "name": "Mr. T", "sprite": "Mr. T"}
+  {"type": "celeb", "name": "Malcolm X", "sprite": "Malcolm X"}
+  {"type": "celeb", "name": "Mark Zuckerberg", "sprite": "Mark Zuckerberg"}
+  {"type": "celeb", "name": "Neil Armstrong", "sprite": "Neil Armstrong"}
+  {"type": "celeb", "name": "Napoleon Bonaparte", "sprite": "Napoleon Bonaparte"}
+  {"type": "celeb", "name": "Notorious BIG", "sprite": "Notorious BIG"}
+  {"type": "celeb", "name": "Nat King Cole", "sprite": "Nat King Cole"}
+  {"type": "celeb", "name": "Nicolas Cage", "sprite": "Nicolas Cage"}
+  {"type": "celeb", "name": "Natalie Portman", "sprite": "Natalie Portman"}
+  {"type": "celeb", "name": "Osama Bin Laden", "sprite": "Osama Bin Laden"}
+  {"type": "celeb", "name": "Ozzy Osbourne", "sprite": "Ozzy Osbourne"}
+  {"type": "celeb", "name": "O.J. Simpson", "sprite": "O.J. Simpson"}
+  {"type": "celeb", "name": "Oprah Winfrey", "sprite": "Oprah Winfrey"}
+  {"type": "celeb", "name": "Plato", "sprite": "Plato"}
+  {"type": "celeb", "name": "Prince", "sprite": "Prince"}
+  {"type": "celeb", "name": "Princess Diana", "sprite": "Princess Diana"}
+  {"type": "celeb", "name": "Paul McCartney", "sprite": "Paul McCartney"}
+  {"type": "celeb", "name": "Peyton Manning", "sprite": "Peyton Manning"}
+  {"type": "celeb", "name": "Pablo Picasso", "sprite": "Pablo Picasso"}
+  {"type": "celeb", "name": "Queen Latifah", "sprite": "Queen Latifah"}
+  {"type": "celeb", "name": "Quentin Tarantino", "sprite": "Quentin Tarantino"}
+  {"type": "celeb", "name": "Rihanna", "sprite": "Rihanna"}
+  {"type": "celeb", "name": "RuPaul", "sprite": "RuPaul"}
+  {"type": "celeb", "name": "Robert Deniro", "sprite": "Robert Deniro"}
+  {"type": "celeb", "name": "Robert Downey Jr", "sprite": "Robert Downey Jr"}
+  {"type": "celeb", "name": "R. Kelly", "sprite": "R. Kelly"}
+  {"type": "celeb", "name": "Rush Limbaugh", "sprite": "Rush Limbaugh"}
+  {"type": "celeb", "name": "Richard Nixon", "sprite": "Richard Nixon"}
+  {"type": "celeb", "name": "Rosa Parks", "sprite": "Rosa Parks"}
+  {"type": "celeb", "name": "Ryan Seacrest", "sprite": "Ryan Seacrest"}
+  {"type": "celeb", "name": "Renee Zellweger", "sprite": "Renee Zellweger"}
+  {"type": "celeb", "name": "Rob Zombie", "sprite": "Rob Zombie"}
+  {"type": "celeb", "name": "Shaggy", "sprite": "Shaggy"}
+  {"type": "celeb", "name": "Shakira", "sprite": "Shakira"}
+  {"type": "celeb", "name": "Sandra Bullock", "sprite": "Sandra Bullock"}
+  {"type": "celeb", "name": "Sean Connery", "sprite": "Sean Connery"}
+  {"type": "celeb", "name": "Steve Carell", "sprite": "Steve Carell"}
+  {"type": "celeb", "name": "Salvador Dali", "sprite": "Salvador Dali"}
+  {"type": "celeb", "name": "Snoop Dogg", "sprite": "Snoop Dogg"}
+  {"type": "celeb", "name": "Salma Hayek", "sprite": "Salma Hayek"}
+  {"type": "celeb", "name": "Steve Irwin", "sprite": "Steve Irwin"}
+  {"type": "celeb", "name": "Samuel L. Jackson", "sprite": "Samuel L. Jackson"}
+  {"type": "celeb", "name": "Scarlett Johansson", "sprite": "Scarlett Johansson"}
+  {"type": "celeb", "name": "Steve Jobs", "sprite": "Steve Jobs"}
+  {"type": "celeb", "name": "Shia LaBeouf", "sprite": "Shia LaBeouf"}
+  {"type": "celeb", "name": "Sir Isaac Newton", "sprite": "Sir Isaac Newton"}
+  {"type": "celeb", "name": "Sarah Palin", "sprite": "Sarah Palin"}
+  {"type": "celeb", "name": "Sean Penn", "sprite": "Sean Penn"}
+  {"type": "celeb", "name": "Serena Williams", "sprite": "Serena Williams"}
+  {"type": "celeb", "name": "Shaun White", "sprite": "Shaun White"}
+  {"type": "celeb", "name": "Timbaland", "sprite": "Timbaland"}
+  {"type": "celeb", "name": "Tim Allen", "sprite": "Tim Allen"}
+  {"type": "celeb", "name": "Tyra Banks", "sprite": "Tyra Banks"}
+  {"type": "celeb", "name": "Tom Cruise", "sprite": "Tom Cruise"}
+  {"type": "celeb", "name": "Tom Hanks", "sprite": "Tom Hanks"}
+  {"type": "celeb", "name": "Tony Hawk", "sprite": "Tony Hawk"}
+  {"type": "celeb", "name": "Tracy Morgan", "sprite": "Tracy Morgan"}
+  {"type": "celeb", "name": "Theodore Roosevelt", "sprite": "Theodore Roosevelt"}
+  {"type": "celeb", "name": "Taylor Swift", "sprite": "Taylor Swift"}
+  {"type": "celeb", "name": "Tilda Swinton", "sprite": "Tilda Swinton"}
+  {"type": "celeb", "name": "Tiger Woods", "sprite": "Tiger Woods"}
+  {"type": "celeb", "name": "Usher", "sprite": "Usher"}
+  {"type": "celeb", "name": "Vincent Van Gogh", "sprite": "Vincent Van Gogh"}
+  {"type": "celeb", "name": "Venus Williams", "sprite": "Venus Williams"}
+  {"type": "celeb", "name": "Will I Am", "sprite": "Will I Am"}
+  {"type": "celeb", "name": "Woody Allen", "sprite": "Woody Allen"}
+  {"type": "celeb", "name": "Winston Churchill", "sprite": "Winston Churchill"}
+  {"type": "celeb", "name": "Walt Disney", "sprite": "Walt Disney"}
+  {"type": "celeb", "name": "Will Ferrell", "sprite": "Will Ferrell"}
+  {"type": "celeb", "name": "Whoopi Goldberg", "sprite": "Whoopi Goldberg"}
+  {"type": "celeb", "name": "Wolfgang Amadeus Mozart", "sprite": "Wolfgang Amadeus Mozart"}
+  {"type": "celeb", "name": "William Shakespeare", "sprite": "William Shakespeare"}
+  {"type": "celeb", "name": "Weird Al Yankovic", "sprite": "Weird Al Yankovic"}
+  {"type": "celeb", "name": "Yoko Ono", "sprite": "Yoko Ono"}
+  {"type": "celeb", "name": "JennaMarbles", "sprite": "JennaMarbles"}
+  {"type": "celeb", "name": "PewDiePie", "sprite": "PewDiePie"}
+  {"type": "celeb", "name": "nigahiga", "sprite": "nigahiga"}
+  {"type": "celeb", "name": "Smosh", "sprite": "Smosh"}
+  {"type": "celeb", "name": "iJustine", "sprite": "iJustine"}
+  {"type": "celeb", "name": "Tyler Oakley", "sprite": "Tyler Oakley"}
+  {"type": "celeb", "name": "Shane Dawson", "sprite": "Shane Dawson"}
+  {"type": "celeb", "name": "Bernie Sanders", "sprite": "Bernie Sanders"}
+  {"type": "celeb", "name": "Nick Anaclerio (clean)", "sprite": "Nick Anaclerio (clean)"}
+  {"type": "celeb", "name": "Nick Anaclerio (shaven)", "sprite": "Nick Anaclerio (shaven)"}
+  {"type": "celeb", "name": "Octomom", "sprite": "Octomom"}
+  {"type": "celeb", "name": "John Oliver", "sprite": "John Oliver"}
