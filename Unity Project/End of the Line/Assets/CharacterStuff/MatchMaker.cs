@@ -15,7 +15,7 @@ public class MatchMaker : MonoBehaviour {
 
 	}
 
-	// any of the CharacterStruts can be null (to put nobody on that track)
+	// @Nullable: any of the CharacterStruts can be null (to put nobody on that track)
 	public Pair<CharacterStruct, CharacterStruct> getPair() {
 		List<CharacterStruct> pool = characterPool.getCharacterPool ();
 
@@ -23,6 +23,9 @@ public class MatchMaker : MonoBehaviour {
 		int firstIndex = Random.Range(0, pool.Count);
 		int secondIndex = Random.Range (0, pool.Count);
 	
+		Debug.Log (pool.Count);
+		Debug.Log (firstIndex);
+		Debug.Log (secondIndex);
 		CharacterStruct person1 = pool [firstIndex];
 		CharacterStruct person2 = pool[secondIndex];
 
