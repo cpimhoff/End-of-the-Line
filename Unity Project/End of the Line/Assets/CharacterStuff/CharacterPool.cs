@@ -22,10 +22,11 @@ public class CharacterPool : MonoBehaviour {
 			foreach (string line in lines) {
 				CharacterStruct character = CharacterStruct.createFromJSONString(line);
 				this.characters.Add (character);
+
+				// we'll keep track of ranks in this list. populate it here!
+				this.rankedPool.Add (character);
 			}
 		}
-		// Keep a copy for ranking!
-		characters.CopyTo(this.rankedPool);
 	}
 
 	
@@ -36,14 +37,14 @@ public class CharacterPool : MonoBehaviour {
 		int indexFirst = this.rankedPool.IndexOf (first);
 		int indexSecond = this.rankedPool.IndexOf (second);
 
-		if (indexFirst > indecSecond) {
+		if (indexFirst > indexSecond) {
 			// If First is later in the list than Second, 
 
 			// remove it (temporarily)
 			this.rankedPool.RemoveAt(indexFirst);
 
 			// and then reinsert it closer to the front!
-			this.rankedPool.Insert(indexSecond, First);
+			this.rankedPool.Insert(indexSecond, first);
 		}
 
 		// Remove Y from viable candidates, since Y is dead now
