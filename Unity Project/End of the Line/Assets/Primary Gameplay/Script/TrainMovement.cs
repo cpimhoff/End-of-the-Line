@@ -10,8 +10,10 @@ public class TrainMovement : MonoBehaviour {
 	public enum LeverPosition {Left, Right};
 	public LeverPosition leverPosition = LeverPosition.Left;
 
-	public float speed = 1.5f;
-	public float maxVelocityMagnitude = 10;
+	public float speed = 5f;
+	public float acceleration = 0.05f;
+	public float maxSpeed = 10f;
+
 	public float rotationSpeed = 1.5f;
 
 	public Vector3 target;
@@ -22,14 +24,17 @@ public class TrainMovement : MonoBehaviour {
 
 	// FixedUpdate is called once per physics frame
 	void FixedUpdate () {
-		var currentY = this.transform.position.y;
+		var currentY = this.transform.position.y;	// this will constrain the Y axis
 
+		// get direction vector
 		var vectorToDestination = target - this.transform.position;
 		vectorToDestination.y = 0;
 		vectorToDestination.Normalize ();
 
+		// move toward vector
 		this.transform.position = Vector3.MoveTowards (this.transform.position, target, (speed * Time.deltaTime));
 
+		// if we're moving in a directly, rotate to face that direction
 		if (vectorToDestination != Vector3.zero) {
 			transform.rotation = Quaternion.Slerp(
 				transform.rotation,
@@ -38,6 +43,10 @@ public class TrainMovement : MonoBehaviour {
 			);
 		}
 
+		// accelerate
+		speed = Mathf.Min(maxSpeed, speed + (acceleration * Time.fixedDeltaTime));
+
+		// lock the Y axis to whatever it was when we started
 		this.transform.position = new Vector3 (transform.position.x, currentY, transform.position.z);
 	}
 
