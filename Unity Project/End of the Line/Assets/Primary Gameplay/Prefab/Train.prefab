@@ -183,6 +183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 290dded36d025421aba640d6eedf2c46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  leverPosition: 0
   speed: 5
   maxVelocityMagnitude: 10
   rotationSpeed: 5
