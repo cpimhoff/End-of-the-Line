@@ -28,4 +28,8 @@ public class CharacterPool : MonoBehaviour {
 	void Update () {
 	
 	}
+
+	public List<CharacterStruct> getCharacterPool() {
+		return characters;
+	}
 }

@@ -4,6 +4,7 @@ using System.Collections;
 public class MatchMaker : MonoBehaviour {
 
 	public CharacterPool characterPool;
+	private int numberOfPairsGiven = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -15,7 +16,10 @@ public class MatchMaker : MonoBehaviour {
 	
 	}
 
+	// any of the CharacterStruts can be null (to put nobody on that track)
 	public Pair<CharacterStruct, CharacterStruct> getPair() {
+		characterPool.getCharacterPool ();
+
 		// return a nice and random pair! Or a totally deterministic one amiright
 		CharacterStruct friend = new CharacterStruct();
 		friend.name = "Charlie Imhoff";
