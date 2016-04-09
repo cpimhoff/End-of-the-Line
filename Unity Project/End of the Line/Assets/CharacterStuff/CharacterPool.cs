@@ -8,11 +8,9 @@ public class CharacterPool : MonoBehaviour {
 
 	private List<CharacterStruct> characters;
 
-	public Dictionary<CharacterStruct, int> deathMap; // for cutie
-
 	// Use this for initialization
 	void Start () {
-		this.deathMap = new Dictionary<CharacterStruct, int> ();
+		this.name = "the pool!";
 		this.characters = new List<CharacterStruct> ();
 
 		foreach (string location in jsonFileLocationStrings) {
@@ -34,13 +32,5 @@ public class CharacterPool : MonoBehaviour {
 
 	public List<CharacterStruct> getCharacterPool() {
 		return characters;
-	}
-
-	public void addDeathForCharacter(CharacterStruct character) {
-		if (this.deathMap.ContainsKey (character)) {
-			this.deathMap [character]++;
-		} else {
-			this.deathMap.Add (character, 1);
-		}
 	}
 }
