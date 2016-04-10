@@ -7,6 +7,7 @@ using System.IO;
 /// </summary>
 public class InitFromCharacterStruct : MonoBehaviour {
 
+	public SpriteRenderer spriteRenderer;
 	private CharacterStruct characterInfo;
 
 	// Initialization
@@ -22,16 +23,11 @@ public class InitFromCharacterStruct : MonoBehaviour {
 	public void SetCharacterInfo (CharacterStruct newInfo) {
 		this.characterInfo = newInfo;
 
-		SpriteRenderer renderer = GetComponent<SpriteRenderer> ();
-
 		var path = characterInfo.type + "/" + characterInfo.sprite;
-		renderer.sprite = Resources.Load(path, typeof(Sprite)) as Sprite;
-
-		Debug.Log ("path: " + path);
-		Debug.Log ("sprite: " + renderer.sprite);
+		spriteRenderer.sprite = Resources.Load(path, typeof(Sprite)) as Sprite;
 
 		Vector3 scale = new Vector3( 1, 1, 1f );
-		renderer.transform.localScale = scale;
+		spriteRenderer.transform.localScale = scale;
 	}
 
 	public CharacterStruct GetCharacterInfo () {
