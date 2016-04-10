@@ -175,9 +175,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fce150d4667854af49488d7608d39700, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jsonFileLocationStrings:
-  - Assets/Character_JSON/chars.json
-  - Assets/Character_JSON/celebs.json
 --- !u!4 &176260816
 Transform:
   m_ObjectHideFlags: 0

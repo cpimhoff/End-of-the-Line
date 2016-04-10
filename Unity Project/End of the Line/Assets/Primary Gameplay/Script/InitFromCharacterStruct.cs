@@ -25,7 +25,7 @@ public class InitFromCharacterStruct : MonoBehaviour {
 		SpriteRenderer renderer = GetComponent<SpriteRenderer> ();
 
 		var path = characterInfo.type + "/" + characterInfo.sprite;
-		renderer.sprite = Resources.Load(characterInfo.sprite, typeof(Sprite)) as Sprite;
+		renderer.sprite = Resources.Load(path, typeof(Sprite)) as Sprite;
 
 		Debug.Log ("path: " + path);
 		Debug.Log ("sprite: " + renderer.sprite);
