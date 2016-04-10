@@ -175,8 +175,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fce150d4667854af49488d7608d39700, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jsonFileLocationStrings:
-  - Assets/Character_JSON/chars.json
 --- !u!4 &176260816
 Transform:
   m_ObjectHideFlags: 0
@@ -460,7 +458,7 @@ MonoBehaviour:
   matchMaker: {fileID: 176260817}
   templatePatches:
   - {fileID: 128614, guid: 3c7f2e6049e224d40aca2def4893744a, type: 2}
-  characterTemplate: {fileID: 164532, guid: 305b5c69187424553bcaffcdaf8234e3, type: 2}
+  characterTemplate: {fileID: 115340, guid: 305b5c69187424553bcaffcdaf8234e3, type: 2}
   props:
   - {fileID: 191472, guid: f3c197bbb1b254f3b97491e00f01b6b2, type: 2}
   - {fileID: 157448, guid: 83414010fcaea43768c3d0db09f9543e, type: 2}
