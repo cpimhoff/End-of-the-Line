@@ -62,6 +62,7 @@
      <Compile Include="Assets\World Generation\Generation\PatchGenerator.cs" />
      <Compile Include="Assets\World Generation\Generation\PatchMeta.cs" />
      <Compile Include="Assets\World Generation\Generation\RealBounds.cs" />
+     <Compile Include="Assets\World Generation\Parts\Props\Scripts\Tumbleweed.cs" />
      <Compile Include="Assets\World Generation\Parts\Script\RailFork.cs" />
      <Compile Include="Assets\World Generation\Parts\Script\RailTrack.cs" />
      <Compile Include="Assets\World Generation\Parts\Script\RayGizmo.cs" />
