@@ -14,7 +14,7 @@ public class CharacterPool : MonoBehaviour {
 		this.characters = new List<CharacterStruct> ();
 		this.rankedPool = new List<CharacterStruct> ();
 
-		var jsonFileLocationStrings = new string [] { "devs", "celebrities" };
+		var jsonFileLocationStrings = new string [] { "devs", "celebrities", "animals" };
 
 		foreach (string location in jsonFileLocationStrings) {
 			var document = Resources.Load<TextAsset> (location);

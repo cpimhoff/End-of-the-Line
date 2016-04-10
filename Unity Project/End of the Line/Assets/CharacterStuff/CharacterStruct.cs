@@ -23,8 +23,6 @@ public class CharacterStruct {
 			charStr.type = theType;
 			charStr.sprite = theSprite;
 
-			Debug.Log ("hey there " + charStr.name);
-
 			return charStr;
 		} else {
 			Debug.LogError ("trouble parsing JSON");

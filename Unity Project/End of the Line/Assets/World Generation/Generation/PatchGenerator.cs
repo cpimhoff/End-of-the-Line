@@ -6,6 +6,7 @@ public class PatchGenerator : MonoBehaviour {
 	public MatchMaker matchMaker;
 	public List<GameObject> templatePatches = new List<GameObject>();
 	public GameObject characterTemplate;
+	public GameObject animalTemplate;
 
 	public List<GameObject> props;
 
@@ -26,7 +27,12 @@ public class PatchGenerator : MonoBehaviour {
 			if (pair.First == null) {
 				// do nothing.
 			} else {
-				GameObject character1 = GameObject.Instantiate (characterTemplate);
+				GameObject character1;
+				if (pair.First.type == "animal") {
+					character1 = GameObject.Instantiate (animalTemplate);
+				} else {
+					character1 = GameObject.Instantiate (characterTemplate);
+				}
 				character1.GetComponent<InitFromCharacterStruct> ().SetCharacterInfo (pair.First);
 				character1.transform.SetParent (patch.transform);
 				character1.transform.position = replaceThese [i].transform.position;
@@ -37,6 +43,11 @@ public class PatchGenerator : MonoBehaviour {
 				// do nothing. especially don't do anything bad.
 			} else {
 				GameObject character2 = GameObject.Instantiate (characterTemplate);
+				if (pair.Second.type == "animal") {
+					character2 = GameObject.Instantiate (animalTemplate);
+				} else {
+					character2 = GameObject.Instantiate (characterTemplate);
+				}
 				character2.GetComponent<InitFromCharacterStruct> ().SetCharacterInfo (pair.Second);
 				character2.transform.SetParent (patch.transform);
 				character2.transform.position = replaceThese [i+1].transform.position;
