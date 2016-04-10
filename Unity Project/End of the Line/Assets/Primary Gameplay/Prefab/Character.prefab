@@ -126,6 +126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bloodEffect: {fileID: 105954, guid: 677f40265c2aa4ec8b94d974a3b7b689, type: 2}
+  sound: {fileID: 8300000, guid: 0b1fd5f924e2140839feca4da7e515e1, type: 3}
 --- !u!114 &11479388
 MonoBehaviour:
   m_ObjectHideFlags: 1
