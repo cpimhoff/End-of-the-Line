@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - ReplaceWithCharacter
+  - Train
+  - Character
+  - ReplaceWithProp
+  - TheObserver
+  - WorldGenerator
   layers:
   - Default
   - TransparentFX
