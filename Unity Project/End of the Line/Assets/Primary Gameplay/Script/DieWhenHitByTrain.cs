@@ -35,6 +35,8 @@ public class DieWhenHitByTrain : MonoBehaviour {
 		if (survivor != null) {
 			InitFromCharacterStruct survivorInfo = survivor.GetComponent<InitFromCharacterStruct>();
 			theObserver.OnCharacterSurvived (survivorInfo.GetCharacterInfo ());
+			survivor.gameObject.tag = "Untagged";
+			Destroy (survivor.gameObject);
 		}
 
 		// TODO: repent

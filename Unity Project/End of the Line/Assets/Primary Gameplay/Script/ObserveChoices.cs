@@ -6,8 +6,12 @@ public class ObserveChoices : MonoBehaviour {
 	public CharacterPool characterPool;
 	private Pair<CharacterStruct, CharacterStruct> runningObservation;
 
+	private LabelUpdater deathLabel;
+
 	void Start () {
 		runningObservation = new Pair<CharacterStruct, CharacterStruct> ();
+		deathLabel = this.GetComponent<LabelUpdater> ();
+		deathLabel.UpdateLabel ("");
 	}
 
 	public void OnCharacterSurvived(CharacterStruct character) {
@@ -21,6 +25,10 @@ public class ObserveChoices : MonoBehaviour {
 		runningObservation.Second = character;
 		if (IsObservationReady ()) {
 			SendFavoringToCharacterPool ();
+		}
+
+		if (deathLabel != null) {
+			deathLabel.UpdateLabel ("Struck: "+character.name+".");
 		}
 	}
 
