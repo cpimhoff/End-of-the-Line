@@ -1,5 +1,7 @@
 # End of the Line
 
+![Mr. Conductor](https://static-secure.guim.co.uk/sys-images/Money/Pix/pictures/2013/6/4/1370336799307/Train-driver-Craig-Puffet-008.jpg)
+
 Howdy there! Glad you're here for your first day on the job. Folks seem to not want to be train conductors 'round these parts no more. 
 Must be the desert heat - but it's a dry heat! And the cacti are all nice to look at and such.
 
