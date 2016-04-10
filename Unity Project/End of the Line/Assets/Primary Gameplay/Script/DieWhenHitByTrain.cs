@@ -15,13 +15,16 @@ public class DieWhenHitByTrain : MonoBehaviour {
 	}
 
 	// Called when a Collider enters this object's trigger space
-	void OnTriggerEnter (Collider other) {
+	public void OnTriggerEnter(Collider other) {
+		Debug.Log ("Somebody got hi by a "+other.tag+" "+other.name);
+
 		if (other.CompareTag ("Train")) {
+			Debug.Log ("HEY Somebody got hi by a train");
 			OnHitByTrain ();
 		}
 	}
 
- 	private void OnHitByTrain () {
+ 	public void OnHitByTrain () {
 		// to-done! blood
 		GetComponent<BloodSplatter>().Splat ();
 

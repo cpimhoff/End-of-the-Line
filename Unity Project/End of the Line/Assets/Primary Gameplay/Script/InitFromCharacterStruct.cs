@@ -10,11 +10,6 @@ public class InitFromCharacterStruct : MonoBehaviour {
 
 	// Initialization
 	void Start () {
-		if (characterInfo == null) {
-			Debug.LogError ("InitFromCharacterStruct.info not set before initialization of a GameObject");
-		} else {
-			SetCharacterInfo (characterInfo);
-		}
 	}
 
 	// Updates the values of various attributes on this character to be equal to those defined by the provided CharacterStruct

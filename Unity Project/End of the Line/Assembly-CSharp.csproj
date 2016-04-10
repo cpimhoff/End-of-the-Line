@@ -54,6 +54,7 @@
      <Compile Include="Assets\Primary Gameplay\Script\Billboard.cs" />
      <Compile Include="Assets\Primary Gameplay\Script\DieWhenHitByTrain.cs" />
      <Compile Include="Assets\Primary Gameplay\Script\InitFromCharacterStruct.cs" />
+     <Compile Include="Assets\Primary Gameplay\Script\KillViaTrain.cs" />
      <Compile Include="Assets\Primary Gameplay\Script\ObserveChoices.cs" />
      <Compile Include="Assets\Primary Gameplay\Script\PatchManager.cs" />
      <Compile Include="Assets\Primary Gameplay\Script\SlideWorld\RailSlideFork.cs" />

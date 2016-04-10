@@ -1,28 +1,18 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CharacterStuff/CharacterPool.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/World Generation/Parts/Script/RailTrack.cs">
     <Files>
-      <File FileName="Assets/CharacterStuff/CharacterPool.cs" Line="31" Column="2" />
-      <File FileName="Assets/CharacterStuff/CharacterStruct.cs" Line="1" Column="1" />
-      <File FileName="Assets/CharacterStuff/MatchMaker.cs" Line="1" Column="1" />
-      <File FileName="Assets/Character_JSON/chars.json" Line="1" Column="1" />
-      <File FileName="Assets/Primary Gameplay/Script/InitFromCharacterStruct.cs" Line="1" Column="1" />
-      <File FileName="Assets/Primary Gameplay/Script/ObserveChoices.cs" Line="26" Column="4" />
+      <File FileName="Assets/Primary Gameplay/Script/SlideWorld/ShiftWorld.cs" Line="17" Column="41" />
+      <File FileName="Assets/Primary Gameplay/Script/SlideWorld/SlideWorldManager.cs" Line="6" Column="34" />
+      <File FileName="Assets/Primary Gameplay/Script/SlideWorld/TriggerGenerateNextPatchAtAnchor.cs" Line="14" Column="36" />
+      <File FileName="Assets/Primary Gameplay/Script/SlideWorld/RailSlideFork.cs" Line="7" Column="34" />
+      <File FileName="Assets/Primary Gameplay/Script/SlideWorld/RailSlideTurn.cs" Line="25" Column="56" />
+      <File FileName="Assets/World Generation/Parts/Script/RailFork.cs" Line="18" Column="3" />
+      <File FileName="Assets/World Generation/Parts/Script/RailTrack.cs" Line="17" Column="4" />
+      <File FileName="Assets/Primary Gameplay/Script/DieWhenHitByTrain.cs" Line="18" Column="9" />
+      <File FileName="Assets/Primary Gameplay/Script/InitFromCharacterStruct.cs" Line="18" Column="3" />
+      <File FileName="Assets/Primary Gameplay/Script/KillViaTrain.cs" Line="6" Column="37" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="End of the Line" expanded="True">
-            <Node name="Assembly-CSharp" expanded="True" selected="True">
-              <Node name="CharacterStuff" expanded="True" />
-              <Node name="Primary Gameplay" expanded="True">
-                <Node name="Script" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

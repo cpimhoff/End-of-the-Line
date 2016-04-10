@@ -10,8 +10,10 @@ public class TriggerGenerateNextPatchAtAnchor : MonoBehaviour {
 		worldManager = GameObject.FindGameObjectWithTag ("SlideWorldManager").GetComponent<SlideWorldManager> ();
 	}
 
-	void OnTriggerEnter() {
-		worldManager.GenerateNewPatchAtAnchor (this.anchor);
+	void OnTriggerEnter(Collider other) {
+		if (other.CompareTag ("Train")) {
+			worldManager.GenerateNewPatchAtAnchor (this.anchor);
+		}
 	}
 
 }
