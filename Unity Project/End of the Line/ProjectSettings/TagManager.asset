@@ -9,6 +9,7 @@ TagManager:
   - Character
   - ReplaceWithProp
   - TheObserver
+  - WorldGenerator
   layers:
   - Default
   - TransparentFX

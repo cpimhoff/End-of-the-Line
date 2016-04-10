@@ -615,6 +615,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 406578}
   - 135: {fileID: 13527708}
+  - 114: {fileID: 11487554}
   m_Layer: 0
   m_Name: Trigger Generate Right
   m_TagString: Untagged
@@ -2559,6 +2560,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 464778}
   - 135: {fileID: 13550278}
+  - 114: {fileID: 11457848}
   m_Layer: 0
   m_Name: Trigger Generate Left
   m_TagString: Untagged
@@ -3061,7 +3063,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 119794}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.3635466, y: -0.22999999, z: 27.024435}
+  m_LocalPosition: {x: 1.44, y: -0.22999999, z: 27.49}
   m_LocalScale: {x: 2.051622, y: 2.051622, z: 2.051622}
   m_Children: []
   m_Father: {fileID: 402988}
@@ -4347,7 +4349,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 190450}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.2564535, y: -0.22999999, z: 27.214436}
+  m_LocalPosition: {x: -1.45, y: -0.22999999, z: 27.33}
   m_LocalScale: {x: 2.051622, y: 2.051622, z: 2.051622}
   m_Children: []
   m_Father: {fileID: 402988}
@@ -4408,8 +4410,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 117770}
-  m_LocalRotation: {x: 0, y: -0.14574048, z: 0, w: 0.98932284}
-  m_LocalPosition: {x: -7.3084536, y: 0, z: 49.532433}
+  m_LocalRotation: {x: 0, y: -0.13609649, z: 0, w: 0.9906956}
+  m_LocalPosition: {x: -7.286, y: 0, z: 49.453}
   m_LocalScale: {x: 2.051622, y: 2.051622, z: 2.051622}
   m_Children: []
   m_Father: {fileID: 402988}
@@ -4906,7 +4908,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 106888}
   m_LocalRotation: {x: 0, y: 0.13467635, z: 0, w: 0.9908897}
-  m_LocalPosition: {x: 7.3305473, y: 0, z: 49.425438}
+  m_LocalPosition: {x: 7.318, y: 0, z: 49.38}
   m_LocalScale: {x: 2.051622, y: 2.051622, z: 2.051622}
   m_Children: []
   m_Father: {fileID: 402988}
@@ -8599,6 +8601,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   origin: {fileID: 468834}
   destination: {fileID: 436052}
+--- !u!114 &11457848
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 190450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d3045b210bd14491a45ace282ddd260, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  atAnchor: {fileID: 466408}
 --- !u!114 &11459358
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8650,6 +8664,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curveTowardLeft: {fileID: 11468426}
   curveTowardRight: {fileID: 11457588}
+--- !u!114 &11487554
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 119794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d3045b210bd14491a45ace282ddd260, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  atAnchor: {fileID: 491922}
 --- !u!114 &11491820
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8693,10 +8719,10 @@ SphereCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 119794}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.37572733
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!135 &13550278
 SphereCollider:
@@ -8705,10 +8731,10 @@ SphereCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 190450}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.33053705
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!135 &13568244
 SphereCollider:

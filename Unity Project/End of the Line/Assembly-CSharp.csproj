@@ -57,6 +57,7 @@
      <Compile Include="Assets\Primary Gameplay\Script\ObserveChoices.cs" />
      <Compile Include="Assets\Primary Gameplay\Script\PatchManager.cs" />
      <Compile Include="Assets\Primary Gameplay\Script\TrainMovement.cs" />
+     <Compile Include="Assets\Primary Gameplay\Script\TriggerNextPatch.cs" />
      <Compile Include="Assets\Primary Gameplay\Sugar\BloodSplatter.cs" />
      <Compile Include="Assets\World Generation\Generation\PatchGenerator.cs" />
      <Compile Include="Assets\World Generation\Generation\PatchMeta.cs" />
