@@ -6,7 +6,6 @@ using System.Collections;
 /// </summary>
 public class DieWhenHitByTrain : MonoBehaviour {
 
-	public string trainTag = "Train";
 	RequireComponent Collider;
 
 	private ObserveChoices theObserver;
@@ -17,7 +16,7 @@ public class DieWhenHitByTrain : MonoBehaviour {
 
 	// Called when a Collider enters this object's trigger space
 	void OnTriggerEnter (Collider other) {
-		if (other.CompareTag (trainTag)) {
+		if (other.CompareTag ("Train")) {
 			OnHitByTrain ();
 		}
 	}

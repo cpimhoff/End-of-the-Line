@@ -9,6 +9,7 @@ TagManager:
   - Character
   - ReplaceWithProp
   - TheObserver
+  - SlideWorldManager
   layers:
   - Default
   - TransparentFX

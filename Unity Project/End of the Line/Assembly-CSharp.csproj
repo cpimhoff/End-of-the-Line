@@ -56,6 +56,11 @@
      <Compile Include="Assets\Primary Gameplay\Script\InitFromCharacterStruct.cs" />
      <Compile Include="Assets\Primary Gameplay\Script\ObserveChoices.cs" />
      <Compile Include="Assets\Primary Gameplay\Script\PatchManager.cs" />
+     <Compile Include="Assets\Primary Gameplay\Script\SlideWorld\RailSlideFork.cs" />
+     <Compile Include="Assets\Primary Gameplay\Script\SlideWorld\RailSlideTurn.cs" />
+     <Compile Include="Assets\Primary Gameplay\Script\SlideWorld\ShiftWorld.cs" />
+     <Compile Include="Assets\Primary Gameplay\Script\SlideWorld\SlideWorldManager.cs" />
+     <Compile Include="Assets\Primary Gameplay\Script\SlideWorld\TriggerGenerateNextPatchAtAnchor.cs" />
      <Compile Include="Assets\Primary Gameplay\Script\TrainMovement.cs" />
      <Compile Include="Assets\Primary Gameplay\Sugar\BloodSplatter.cs" />
      <Compile Include="Assets\World Generation\Generation\PatchGenerator.cs" />
