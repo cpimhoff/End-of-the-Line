@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class CameraSweep : MonoBehaviour {
 
@@ -15,13 +16,13 @@ public class CameraSweep : MonoBehaviour {
 	}
 
 	void Update () {
-		if (progress > duration) {
+		if (progress >= duration) {
+			SceneManager.LoadScene ("GameScene");
 			this.enabled = false;
 		}
 
 		progress += Time.deltaTime;
-		var alpha = Mathf.Min ((progress / duration), 1f);
+		var alpha = Mathf.Min ((progress / duration) * 0.4f, 1f);
 		this.transform.rotation = Quaternion.Lerp(this.transform.rotation, endingRotation, alpha);
 	}
-
 }

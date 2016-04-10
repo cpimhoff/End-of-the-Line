@@ -50,6 +50,7 @@
      <Compile Include="Assets\CharacterStuff\MatchMaker.cs" />
      <Compile Include="Assets\CharacterStuff\Pair.cs" />
      <Compile Include="Assets\CharacterStuff\SimpleJSON.cs" />
+     <Compile Include="Assets\MainMenu\Script\AutoFade.cs" />
      <Compile Include="Assets\MainMenu\Script\CameraSweep.cs" />
      <Compile Include="Assets\Primary Gameplay\Interface\LabelUpdater.cs" />
      <Compile Include="Assets\Primary Gameplay\Interface\LeverMover.cs" />
