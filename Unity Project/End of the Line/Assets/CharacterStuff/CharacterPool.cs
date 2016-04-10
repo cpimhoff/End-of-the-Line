@@ -1,10 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 using System.IO;
+using System.Text.RegularExpressions;
 
 public class CharacterPool : MonoBehaviour {
-
-	public List<string> jsonFileLocationStrings;
 
 	private List<CharacterStruct> characters;
 	private List<CharacterStruct> rankedPool;
@@ -15,12 +14,22 @@ public class CharacterPool : MonoBehaviour {
 		this.characters = new List<CharacterStruct> ();
 		this.rankedPool = new List<CharacterStruct> ();
 
+		var jsonFileLocationStrings = new string [] { "devs", "celebrities" };
+
 		foreach (string location in jsonFileLocationStrings) {
-			string[] lines = File.ReadAllLines(location);
+			var document = Resources.Load<TextAsset> (location);
+			if (document == null) {
+				continue;
+			}
+			string[] lines = Regex.Split (document.text, "\n|\r|\r\n");
 
 			// These JSON files are poorly formatted. Each line is a separate JSON object.
 			// it's a hackathon though so we're cutting corners, you know?!
 			foreach (string line in lines) {
+				if (!(line.Length > 3)) {
+					continue;
+				}
+
 				CharacterStruct character = CharacterStruct.createFromJSONString(line);
 				this.characters.Add (character);
 

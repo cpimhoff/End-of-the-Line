@@ -13,16 +13,24 @@ public class CharacterStruct {
 	public static CharacterStruct createFromJSONString(string jsonString) { //parses a JSON file and turns it into a type character struct
 		JSONNode jsonParsed = JSON.Parse(jsonString);
 
-		var theName = jsonParsed ["name"];
-		var theType = jsonParsed ["type"];
-		var theSprite = jsonParsed ["sprite"];
+		string theName = jsonParsed ["name"];
+		string theType = jsonParsed ["type"];
+		string theSprite = jsonParsed ["sprite"];
 
-		var charStr = new CharacterStruct ();
-		charStr.name = theName;
-		charStr.type = theType;
-		charStr.sprite = theSprite;
+		if (theName != null && theType != null && theSprite != null) {
+			var charStr = new CharacterStruct ();
+			charStr.name = theName;
+			charStr.type = theType;
+			charStr.sprite = theSprite;
 
-		return charStr;
+			Debug.Log ("hey there " + charStr.name);
+
+			return charStr;
+		} else {
+			Debug.LogError ("trouble parsing JSON");
+
+			return null;
+		}
 	}
 
 	public string toString() {
